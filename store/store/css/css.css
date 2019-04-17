@@ -1,0 +1,107 @@
+body {
+	/*font:normal 9pt/17px "Arial", "新細明體", "細明體";*/
+	font:normal 15px "Arial", "新細明體", "細明體";
+	margin:0px;
+	cursor:default;
+	background-repeat: no-repeat;
+}
+td{
+	/*font:normal 9pt "arial";*/
+	font:normal 15px "arial";
+}
+input,select,textarea{
+	/*font:normal 9pt "Arial", "新細明體", "細明體";*/
+	font:normal 15px "Arial", "新細明體", "細明體";
+}
+.toc {font:bold 16px 新細明體;letter-spacing:2px}
+.dot {font:bold 15px 新細明體;letter-spacing:2px;width:75px;height:22px;padding-top:3px;margin-bottom:3px;background:#e0e0e0;color:#000000;border:2px outset}
+.tit {padding:8px;letter-spacing:2px}
+.sno {color:#cacaca}
+.inf {font:italic 11px verdana;color:#2090ca;background:#eaedf0;padding:3 2 2 0}
+a    {text-decoration:none;color:#2090ca}
+.over {background-color: #FFECC8; color:#FFFFFF;cursor:hand;font-size: 15px;}
+.out  {color: #333333;font-size: 15px;}
+.S14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.S16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.S20 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.f1201 {
+	font-size: 12px;
+	color: #000000;
+	line-height: 18px;
+}
+.f1201B {
+	font-size: 15px;
+	color: #000000;
+	font-weight: bold;
+	line-height: 18px;
+}
+.f1401B {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+}
+.f1801B {
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: 0.1em;
+}
+.f2401 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: 0.2em;
+}
+
+
+.td01 {
+	background-color: #333333;
+}
+.td02 {
+	background-color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+}
+.td03 {
+	font-size: 15px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+
+
+
+.tit{
+	border:1px solid #000000;
+}
+.pdM_tbl{
+	border-collapse:separate;
+	border-spacing:1px;
+}
+.pdM_tbl .tit{
+	border:0;
+}	
+.pd_tbl tr td{
+	padding:8px;
+	font-size:15px;
+}
+.bor_tbl tr td{
+	padding:8px;
+	font-size:15px;
+	border:1px solid #000000;
+}

@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/css/reset.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/css/css.css">
+    <link rel="stylesheet" type="text/css" href="~/css/backstage.css">
+   
+</head>
+<body>
+
+    <div class="bs_hd clearfix">
+        <div class="bshd_left">
+            <a href="#" data-toggle=".container" id="sidebar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <span class="bshd_title">Pet 2 Go後台管理系統</span>
+        </div><!-- .bshd_left -->
+
+        <div class="bshd_right">
+            <ul class="dpdown">
+                <li class="dp_txt">Welcome,</li>
+                <li class="button-dropdown">
+                    <a href="javascript:void(0)" class="dropdown-toggle"><i class="fa fa-user" aria-hidden="true"></i> <span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/IIE/99System/LoginOut.asp"><i class="fa fa-sign-out" aria-hidden="true"></i>登出</a></li>
+                    </ul>
+                </li>
+                <li class="button-dropdown">
+                    <a href="javascript:void(0)" class="dropdown-toggle">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu dp_info">
+                        <li>
+                            <p class="dpInfo_txt">
+                                立大資訊 聯絡資料<br>
+                                賴俊吉 Jim Lai<br>
+                                TEL：02-2319-8286＃10<br>
+                                e-mail：<a href="mailto:jimlai@e-giant.com.tw">jimlai@e-giant.com.tw</a><br>
+
+                                客服專線服務時間：<br>
+                                週一～週五 <br>09:00am ~ 12:00pm , 13:00pm ~ 18:00pm<br>
+                                電話忙線或非服務時間，請您改以「e-mail」方式與客服聯絡，我們將儘速為您服務
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- .bshd_right -->
+    </div><!-- .bs_hd -->
+    <div class="container open-sidebar">
+        <div id="submenu">
+            <ul>
+                <!--li><a href="/IIE/Main.asp"><span>即時訊息</span></a></li-->
+
+                <li class="has-sub">
+                    <a href="#"><span>大分類</span></a>
+                    <ul>
+                        <li class="has-sub">
+                            <a href="#"><span>中分類 1</span></a>
+                            <ul>
+                                <li class="has-sub">
+                                    <a href="#"><span>細分類</span></a>
+                                    <ul>
+                                        <li><a href="#"><span>名稱 一</span></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>名稱 二</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span>中分類 2(沒有細分類)</span></a></li>
+                    </ul>
+                </li>
+                <li class="has-sub">
+                    <a href="#"><span>會員管理</span></a>
+                    <ul>
+                        <li><a href=@Url.Action("Data","Member")><span>會員資料</span></a></li>
+                        <li><a href="#"><span>中分類 2(沒有細分類)</span></a></li>
+                        <li><a href="#"><span>中分類 2(沒有細分類)</span></a></li>
+                        <li><a href="#"><span>中分類 2(沒有細分類)</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="subMenu_close">
+                <a href="#" data-toggle=".container" id="sidebar-toggle"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></a>
+            </div>
+        </div><!-- .#submenu -->
+
+        <div class="main-content">
+            <div class="content">
+                <div>
+                    @RenderBody()
+                </div>
+
+                <div class="ft_copyright">Copyright © 2018 <%=Session("Company") %> All rights reserved.</div>
+            </div><!-- .content -->
+        </div><!-- .main-content -->
+    </div><!-- .container -->
+    <!--#include file="includeBtn/btn_footer.asp" -->
+
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+
+
+
+
+
+        if (localStorage.getItem("openmenu") == null || localStorage.getItem("openmenu") == undefined || localStorage.getItem("openmenu") == '') { //假如無資料就設定資料
+            localStorage.setItem("openmenu", "Open");
+        }
+        $(window).load(function () {
+            $("[data-toggle]").click(function () {
+                var toggle_el = $(this).data("toggle");
+                $(toggle_el).toggleClass("open-sidebar");
+                $(".main-content").toggleClass("full");
+                if ($(toggle_el).hasClass("open-sidebar")) {  //判斷到有此class代表打開 沒有代表關閉
+                    localStorage.setItem("openmenu", "Open");
+                } else {
+                    localStorage.setItem("openmenu", "Close");
+                }
+            });
+        });
+        $(document).ready(function () {
+            var toggle_el = $("[data-toggle]").data("toggle");
+            $(toggle_el).removeClass("open-sidebar");   //移除列表預設開啟狀態
+            $(".main-content").addClass("full");   //設定右邊頁面滿版
+            if (localStorage.getItem("openmenu") == 'Open') {  //打開列表
+                $(toggle_el).addClass("open-sidebar");
+                $(".main-content").removeClass("full");  //移除右邊頁面滿版
+            }
+        });
+
+        $(window).resize(function () {
+            var toggle_el = $("[data-toggle]").data("toggle");
+            if ($(window).width() <= 1300) {
+                $(toggle_el).removeClass("open-sidebar");
+                /*$(".main-content").addClass("full");
+                $(".main-content").removeClass("full");*/
+            }
+        });
+    </script>
+
+
+    <script src="~/js/submenu.js"></script>
+</body>
+</html>

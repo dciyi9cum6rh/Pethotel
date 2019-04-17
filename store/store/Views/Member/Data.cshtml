@@ -1,0 +1,326 @@
+﻿@model IEnumerable<store.Models.Member>
+
+@{
+    ViewBag.Title = "Data";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<h2>Data</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<form class="form-horizontal">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Form Name</legend>
+
+        <!-- Search input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="">會員編號</label>
+            <div class="col-md-4">
+                <input id="" name="" type="search" placeholder="" class="form-control input-md">
+
+            </div>
+        </div>
+
+        <!-- Search input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="">會員姓名</label>
+            <div class="col-md-4">
+                <input id="" name="" type="search" placeholder="" class="form-control input-md">
+
+            </div>
+        </div>
+
+        <!-- Search input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="">手機</label>
+            <div class="col-md-4">
+                <input id="" name="" type="search" placeholder="" class="form-control input-md">
+
+            </div>
+        </div>
+
+        <!-- Search input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="searchinput">Search Input</label>
+            <div class="col-md-4">
+                <input id="searchinput" name="searchinput" type="search" placeholder="placeholder" class="form-control input-md">
+                <p class="help-block">help</p>
+            </div>
+        </div>
+
+        <!-- Search input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="searchinput">Search Input</label>
+            <div class="col-md-4">
+                <input id="searchinput" name="searchinput" type="search" placeholder="placeholder" class="form-control input-md">
+                <p class="help-block">help</p>
+            </div>
+        </div>
+
+
+
+        <!-- Search input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="searchinput">Search Input</label>
+            <div class="col-md-4">
+                <input id="searchinput" name="searchinput" type="search" placeholder="placeholder" class="form-control input-md">
+                <p class="help-block">help</p>
+            </div>
+        </div>
+        <!-- Button (Double) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="button1id"></label>
+            <div class="col-md-8">
+                <button id="button1id" name="button1id" class="btn btn-success">查詢</button>
+                <button id="button2id" name="button2id" class="btn btn-primary">新增</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
+
+
+
+<table border="0" cellpadding="5" cellspacing="0">
+    <tr>
+        <td>
+            <font class="toc"><font color='#0034a0'></font></font>
+            <hr size=1 color="#606060">
+
+            <table border="0" cellpadding="2" cellspacing="1" bgcolor="#606060">
+                <tr height="23" bgcolor="#dadada">
+                    <td class="tit" align="center">會員編號</td>
+                    <td class="tit" bgcolor="#ffffff" colspan="3"><input type="text" name="Midno_Q" size="10" /></td>
+                    <td class="tit" align="center">姓名</td>
+                    <td class="tit" bgcolor="#ffffff">
+                        <input type="text" name="Name_Q" size="15" />
+                    </td>
+
+                    <td class="tit" rowspan=5>功能</td>
+                    <td class="tit" rowspan=5 bgcolor="#ffffff">
+                        <input type="submit" style="color:blue"  value="查詢" />
+                        <input type="submit" style="color:blue"  value="新增" /><br />
+
+                        <input type="hidden" name="Mod" id="Mod" value="=Mod " />
+
+                        排序:<select name="OrderType">
+                            <option value="Midno">編號</option>
+                            <option value="Udate"> </option>
+                            <option value="CrNo">卡號</option>
+                            <option value="County">縣市</option>
+                        </select><br>
+                        方式:<select name="OrderWay">
+                            <option value="DESC">漸小</option>
+                            <option value="ASC">漸大</option>
+
+                        </select><br>
+                        每頁<input type="text" name="pagerow" id="pagerow" size="1" value="=dataNum " />筆
+                    </td>
+                </tr>
+                <tr height="23" bgcolor="#dadada">
+
+                    <td class="tit" align="center">手機</td>
+                    <td class="tit" bgcolor="#ffffff" colspan="3"><input type="text" name="Mobile_Q" size="15" value="=Mobile_Q " /></td>
+                    <td class="tit" align="center">申請日</td>
+                    <td class="tit" bgcolor="#ffffff">
+                        <input type="text" name="StartD" id="Text1" size="8" value="=StartD " class="Wdate" onfocus="WdatePicker({skin:'whyGreen'})" />～
+                        <input type="text" name="EndD" id="Text2" size="8" value="=EndD " class="Wdate" onfocus="WdatePicker({skin:'whyGreen'})" />(範圍)
+                    </td>
+
+                </tr>
+
+                <tr height="23" bgcolor="#dadada">
+
+                    <td class="tit" align="center">生日月份</td>
+                    <td class="tit" bgcolor="#ffffff" colspan="3">
+                        <select name="Birth_Q">
+                            <option  selected="selected"  value="">----請選擇月份----</option>
+                            <option value="1">一月</option>
+                            <option value="2">二月</option>
+                            <option value="3">三月</option>
+                            <option value="4">四月</option>
+                            <option value="5">五月</option>
+                            <option value="6">六月</option>
+                            <option value="7">七月</option>
+                            <option value="8">八月</option>
+                            <option value="9">九月</option>
+                            <option value="10"  >十月</option>
+                            <option value="11 " >十一月</option>
+                            <option value="12  ">十二月</option>
+                        </select>
+                    </td>
+                    <td class="tit" align="center">縣市鄉鎮</td>
+                    <td class="tit" bgcolor="#ffffff">
+                        <select name="County_Q" id="County_Q" onchange="getZip_Q()">=County_QStr </select>
+
+                        <select name="Zip_Q" id="Zip_Q"></select>
+
+                        <input type="text" value="=Addr_Q " name="Addr_Q" />
+
+                    </td>
+
+                </tr>
+
+                <tr height="23" bgcolor="#dadada">
+                    --
+                    <td class="tit" align="center">卡號範圍</td>
+                    <td class="tit" colspan="3" bgcolor="#ffffff">
+                        <input type="text" name="crno_Q_S" value="=crno_Q_S " />~
+                        <input type="text" name="crno_Q_E" value="=crno_Q_E " />
+                    </td>--
+                    <td class="tit" align="center">加入年月</td>
+                    <td class="tit" bgcolor="#ffffff" colspan="3">
+
+                        <input name="AddYear_Q" value="=AddYear_Q " size="5" placeholder="年(西元)" />年
+
+                        <select name="AddMonth_Q">
+                            <option value="">----請選擇月份----</option>
+                            <option value="1">一月</option>
+                            <option value="2">二月</option>
+                            <option value="3">三月</option>
+                            <option value="4">四月</option>
+                            <option value="5">五月</option>
+                            <option value="6">六月</option>
+                            <option value="7">七月</option>
+                            <option value="8">八月</option>
+                            <option value="9">九月</option>
+                            <option value="10">十月</option>
+                            <option value="11">十一月</option>
+                            <option value="12">十二月</option>
+                        </select>
+                    </td>
+
+
+
+                    <td class="tit" align="center">手機是否認證</td>
+                    <td class="tit" bgcolor="#ffffff">
+                        <input type="radio" name="IsAuthCheck_Q" value="" />全部
+                        <input type="radio" name="IsAuthCheck_Q" value="True" />是
+                        <input type="radio" name="IsAuthCheck_Q" value="False" />否
+                    </td>
+
+
+                </tr>
+
+                <tr height="23" bgcolor="#dadada">
+                    <td class="tit" align="center">首次消費日期</td>
+                    <td class="tit" bgcolor="#ffffff" colspan="3">
+                        <input type="text" name="FstCdateStart" autocomplete="off" size="8" value="=FstCdateStart " class="Wdate" onfocus="WdatePicker({skin:'whyGreen'})" />～
+                        <input type="text" name="FstCdateEnd" autocomplete="off" size="8" value="=FstCdateEnd " class="Wdate" onfocus="WdatePicker({skin:'whyGreen'})" />(範圍)
+                    </td>
+
+                    <td class="tit" align="center">首次消費金額</td>
+                    <td class="tit" bgcolor="#ffffff">
+                        <input type="text" name="FstCamtStart" size="8" value="=FstCamtStart " />
+                        <input type="text" name="FstCamtEnd" size="8" value="=FstCamtEnd " />
+                    </td>
+
+
+
+                </tr>
+
+                <tr height="23" bgcolor="#dadada">
+                    <td class="tit" align="center">消費期間範圍</td>
+                    <td class="tit" bgcolor="#ffffff" colspan="3">
+                        <input type="text" name="ConsumptionDateStart" autocomplete="off" size="8" value="=ConsumptionDateStart " class="Wdate" onfocus="WdatePicker({skin:'whyGreen'})" />～
+                        <input type="text" name="ConsumptionDateEnd" autocomplete="off" size="8" value="=ConsumptionDateEnd " class="Wdate" onfocus="WdatePicker({skin:'whyGreen'})" />(範圍)
+                    </td>
+
+                    <td class="tit" align="center">消費金額範圍</td>
+                    <td class="tit" bgcolor="#ffffff" colspan="3">
+                        <input type="text" name="ConsumptionMoneyStart" size="8" value="=ConsumptionMoneyStart " />～
+                        <input type="text" name="ConsumptionMoneyEnd" size="8" value="=ConsumptionMoneyEnd " />
+                    </td>
+
+
+
+                </tr>
+
+            </table>
+
+
+            <hr size=1 color="#e0e0e0" width="=FormWidth" />
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Midno)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Kind)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MKind)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mobile)
+            </th>
+
+            <th></th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Midno)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Kind)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MKind)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobile)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+    }
+
+    </table>*@

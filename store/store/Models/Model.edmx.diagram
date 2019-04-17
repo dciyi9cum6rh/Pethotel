@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5be75d81bbab408f9a5b9e2123577987" Name="Diagram1">
+        <EntityTypeShape EntityType="FullonHotelModel.AdBanner" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.App_system" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Banner_Location" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.BarCode_Prt" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Brand" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.City" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.City_Sub" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.CompanyData1" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Contact_Us" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.coupon" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.coupon_Kind" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.coupon_LevelSub" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.coupon_sub" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Depart" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.DepartBom" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.DuplicateLogin" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Employee" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.FKind" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.hklist" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Item" Width="1.5" PointX="14.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Item_Sub" Width="1.5" PointX="14.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Loginout" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Member" Width="1.5" PointX="6.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Member_Auth" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Member_CrNO" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Member_Grp" Width="1.5" PointX="16.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Member_GrpUser" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Member_Join" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Member_Level" Width="1.5" PointX="14.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Member_LevelHis" Width="1.5" PointX="16.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.MemberPh" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.MemberSM" Width="1.5" PointX="0.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.MemberSMS_SendList" Width="1.5" PointX="18.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.News" Width="1.5" PointX="18.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.News_Grp" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Notice" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.OnSale" Width="1.5" PointX="8.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.OnSales_Pidno" Width="1.5" PointX="20.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.OnSales_Rate" Width="1.5" PointX="20.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Order" Width="1.5" PointX="2.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Order_INVO" Width="1.5" PointX="20.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Order_Sub" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Promote" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Promote_Sub" Width="1.5" PointX="22.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.QCash_Book" Width="1.5" PointX="14.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Right" Width="1.5" PointX="16.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Schedule_Circle" Width="1.5" PointX="22.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Schedule_File" Width="1.5" PointX="22.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Schedule_Main" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Schedule_Page" Width="1.5" PointX="24.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Schedule_Reply" Width="1.5" PointX="24.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Schedule_ToDo" Width="1.5" PointX="24.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.SKind" Width="1.5" PointX="24.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.SpecOrder_ApplyID" Width="1.5" PointX="18.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.SpecOrderApply" Width="1.5" PointX="24.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.SpecOrderInfo" Width="1.5" PointX="2.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Store" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.SubCompany" Width="1.5" PointX="8.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.SubCompany_Sub" Width="1.5" PointX="20.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.SysData" Width="1.5" PointX="26.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.sysdiagram" Width="1.5" PointX="16.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.YearWorkHour" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.ChkUpload" Width="1.5" PointX="28.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Coupon_Book" Width="1.5" PointX="28.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Invader" Width="1.5" PointX="28.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.OnSales_Record" Width="1.5" PointX="28.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Product" Width="1.5" PointX="28.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Program" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.Promote_LevelSub" Width="1.5" PointX="30.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FullonHotelModel.SubCompany_Kind" Width="1.5" PointX="30.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="FullonHotelModel.FK_City_Sub_City" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FullonHotelModel.ChangeProduct_View" Width="1.5" PointX="15.75" PointY="30.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.City_View" Width="1.5" PointX="17.75" PointY="30.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.CompanyData" Width="1.5" PointX="11.75" PointY="31.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.coupon_LevelSub_View" Width="1.5" PointX="31.75" PointY="14.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.coupon_sub_view" Width="1.5" PointX="31.75" PointY="18.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.DPost" Width="1.5" PointX="19.75" PointY="31.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.DPost_View" Width="1.5" PointX="21.75" PointY="31.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.HiCash_Book" Width="1.5" PointX="31.75" PointY="27.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.mebSMS_View" Width="1.5" PointX="27.75" PointY="32.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.MemberPh_ViewStore" Width="1.5" PointX="29.75" PointY="32.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.OnSales_Pidno_View" Width="1.5" PointX="31.75" PointY="32.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.OnSales_Rate_View" Width="1.5" PointX="33.75" PointY="0.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.OnSales_Record_View" Width="1.5" PointX="33.75" PointY="7.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.Promote_LevelSub_View" Width="1.5" PointX="33.75" PointY="11.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.Rights_View" Width="1.5" PointX="33.75" PointY="16.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.Schedule_Main_View" Width="1.5" PointX="33.75" PointY="23.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.SKind_View" Width="1.5" PointX="33.75" PointY="30.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.SubCompany_Sub_View" Width="1.5" PointX="35.75" PointY="0.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.SubCompany_V" Width="1.5" PointX="35.75" PointY="5.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.SubCompany_View" Width="1.5" PointX="35.75" PointY="11.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.AdBanner_View" Width="1.5" PointX="35.75" PointY="17.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.coupon_View" Width="1.5" PointX="17.75" PointY="35.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.Depart_View" Width="1.5" PointX="35.75" PointY="23.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.Employee_Detail" Width="1.5" PointX="35.75" PointY="33.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.MemberSMS_View" Width="1.5" PointX="0.75" PointY="36.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.News_View" Width="1.5" PointX="2.75" PointY="36.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.Product_View" Width="1.5" PointX="4.75" PointY="36.75" />
+        <EntityTypeShape EntityType="FullonHotelModel.SpecOrderInfo_View" Width="1.5" PointX="6.75" PointY="36.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

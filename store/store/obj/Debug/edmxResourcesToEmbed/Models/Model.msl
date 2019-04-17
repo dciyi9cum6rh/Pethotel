@@ -1,0 +1,2701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FullonHotelModelStoreContainer" CdmEntityContainer="FullonHotelEntities">
+    <EntitySetMapping Name="AdBanners">
+      <EntityTypeMapping TypeName="FullonHotelModel.AdBanner">
+        <MappingFragment StoreEntitySet="AdBanner">
+          <ScalarProperty Name="AdID" ColumnName="AdID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="ADate" ColumnName="ADate" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="BL_ID" ColumnName="BL_ID" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="PicsName" ColumnName="PicsName" />
+          <ScalarProperty Name="NwID" ColumnName="NwID" />
+          <ScalarProperty Name="Sidno" ColumnName="Sidno" />
+          <ScalarProperty Name="ScID" ColumnName="ScID" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="IsWebOn" ColumnName="IsWebOn" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="App_system">
+      <EntityTypeMapping TypeName="FullonHotelModel.App_system">
+        <MappingFragment StoreEntitySet="App_system">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="AppName" ColumnName="AppName" />
+          <ScalarProperty Name="AppVersion" ColumnName="AppVersion" />
+          <ScalarProperty Name="Sys" ColumnName="Sys" />
+          <ScalarProperty Name="OpenDate" ColumnName="OpenDate" />
+          <ScalarProperty Name="PicsType" ColumnName="PicsType" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Banner_Location">
+      <EntityTypeMapping TypeName="FullonHotelModel.Banner_Location">
+        <MappingFragment StoreEntitySet="Banner_Location">
+          <ScalarProperty Name="BL_ID" ColumnName="BL_ID" />
+          <ScalarProperty Name="BL_StoreID" ColumnName="BL_StoreID" />
+          <ScalarProperty Name="BL_Name" ColumnName="BL_Name" />
+          <ScalarProperty Name="BL_Online" ColumnName="BL_Online" />
+          <ScalarProperty Name="BL_Pixs" ColumnName="BL_Pixs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BarCode_Prt">
+      <EntityTypeMapping TypeName="FullonHotelModel.BarCode_Prt">
+        <MappingFragment StoreEntitySet="BarCode_Prt">
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="Pidno" ColumnName="Pidno" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="Nums" ColumnName="Nums" />
+          <ScalarProperty Name="mpid" ColumnName="mpid" />
+          <ScalarProperty Name="IsMail" ColumnName="IsMail" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Brands">
+      <EntityTypeMapping TypeName="FullonHotelModel.Brand">
+        <MappingFragment StoreEntitySet="Brand">
+          <ScalarProperty Name="cd_id" ColumnName="cd_id" />
+          <ScalarProperty Name="BNO" ColumnName="BNO" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="S_Com" ColumnName="S_Com" />
+          <ScalarProperty Name="NOTE" ColumnName="NOTE" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="ODate" ColumnName="ODate" />
+          <ScalarProperty Name="BKind" ColumnName="BKind" />
+          <ScalarProperty Name="BCode" ColumnName="BCode" />
+          <ScalarProperty Name="BCity" ColumnName="BCity" />
+          <ScalarProperty Name="BAddr" ColumnName="BAddr" />
+          <ScalarProperty Name="BTel" ColumnName="BTel" />
+          <ScalarProperty Name="BFax" ColumnName="BFax" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="EDate" ColumnName="EDate" />
+          <ScalarProperty Name="Tax_no" ColumnName="Tax_no" />
+          <ScalarProperty Name="Tax_resp" ColumnName="Tax_resp" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+          <ScalarProperty Name="bra_shortname" ColumnName="bra_shortname" />
+          <ScalarProperty Name="bra_ename" ColumnName="bra_ename" />
+          <ScalarProperty Name="bra_eaddr" ColumnName="bra_eaddr" />
+          <ScalarProperty Name="brt_id" ColumnName="brt_id" />
+          <ScalarProperty Name="cur_id" ColumnName="cur_id" />
+          <ScalarProperty Name="entid" ColumnName="entid" />
+          <ScalarProperty Name="entdt" ColumnName="entdt" />
+          <ScalarProperty Name="tryid" ColumnName="tryid" />
+          <ScalarProperty Name="trydt" ColumnName="trydt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="FullonHotelModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Sno" ColumnName="Sno" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="En_Name" ColumnName="En_Name" />
+          <ScalarProperty Name="NoShow" ColumnName="NoShow" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City_Sub">
+      <EntityTypeMapping TypeName="FullonHotelModel.City_Sub">
+        <MappingFragment StoreEntitySet="City_Sub">
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="Sno" ColumnName="Sno" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="En_County" ColumnName="En_County" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyData1">
+      <EntityTypeMapping TypeName="FullonHotelModel.CompanyData1">
+        <MappingFragment StoreEntitySet="CompanyData1">
+          <ScalarProperty Name="cd_id" ColumnName="cd_id" />
+          <ScalarProperty Name="cd_nickname" ColumnName="cd_nickname" />
+          <ScalarProperty Name="cd_name" ColumnName="cd_name" />
+          <ScalarProperty Name="cd_ename" ColumnName="cd_ename" />
+          <ScalarProperty Name="cd_mainperson" ColumnName="cd_mainperson" />
+          <ScalarProperty Name="cd_sid" ColumnName="cd_sid" />
+          <ScalarProperty Name="cd_medid" ColumnName="cd_medid" />
+          <ScalarProperty Name="cd_unify" ColumnName="cd_unify" />
+          <ScalarProperty Name="cd_invoice" ColumnName="cd_invoice" />
+          <ScalarProperty Name="cd_note" ColumnName="cd_note" />
+          <ScalarProperty Name="cd_baddress" ColumnName="cd_baddress" />
+          <ScalarProperty Name="cd_daddress" ColumnName="cd_daddress" />
+          <ScalarProperty Name="cd_capital" ColumnName="cd_capital" />
+          <ScalarProperty Name="cd_adate" ColumnName="cd_adate" />
+          <ScalarProperty Name="cd_bitem" ColumnName="cd_bitem" />
+          <ScalarProperty Name="cd_ldate" ColumnName="cd_ldate" />
+          <ScalarProperty Name="cd_memdate" ColumnName="cd_memdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact_Us">
+      <EntityTypeMapping TypeName="FullonHotelModel.Contact_Us">
+        <MappingFragment StoreEntitySet="Contact_Us">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="ReDate" ColumnName="ReDate" />
+          <ScalarProperty Name="ReContext" ColumnName="ReContext" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="Readtime" ColumnName="Readtime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coupons">
+      <EntityTypeMapping TypeName="FullonHotelModel.coupon">
+        <MappingFragment StoreEntitySet="coupon">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="UseDays" ColumnName="UseDays" />
+          <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="SystemType" ColumnName="SystemType" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="IsMake" ColumnName="IsMake" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="Price_id" ColumnName="Price_id" />
+          <ScalarProperty Name="DisCountAmt" ColumnName="DisCountAmt" />
+          <ScalarProperty Name="Minmoney" ColumnName="Minmoney" />
+          <ScalarProperty Name="isloop" ColumnName="isloop" />
+          <ScalarProperty Name="basemoney" ColumnName="basemoney" />
+          <ScalarProperty Name="basediscount" ColumnName="basediscount" />
+          <ScalarProperty Name="DisCountWay" ColumnName="DisCountWay" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="PosNumber" ColumnName="PosNumber" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="IsExchange" ColumnName="IsExchange" />
+          <ScalarProperty Name="IsBirthGift" ColumnName="IsBirthGift" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="qcbPoints" ColumnName="qcbPoints" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coupon_Kind">
+      <EntityTypeMapping TypeName="FullonHotelModel.coupon_Kind">
+        <MappingFragment StoreEntitySet="coupon_Kind">
+          <ScalarProperty Name="CKid" ColumnName="CKid" />
+          <ScalarProperty Name="CKName" ColumnName="CKName" />
+          <ScalarProperty Name="CKDate" ColumnName="CKDate" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coupon_LevelSub">
+      <EntityTypeMapping TypeName="FullonHotelModel.coupon_LevelSub">
+        <MappingFragment StoreEntitySet="coupon_LevelSub">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="DisCountAmt" ColumnName="DisCountAmt" />
+          <ScalarProperty Name="MLid" ColumnName="MLid" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coupon_sub">
+      <EntityTypeMapping TypeName="FullonHotelModel.coupon_sub">
+        <MappingFragment StoreEntitySet="coupon_sub">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="getKind" ColumnName="getKind" />
+          <ScalarProperty Name="IsGet" ColumnName="IsGet" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="Ccode" ColumnName="Ccode" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="LimitDate" ColumnName="LimitDate" />
+          <ScalarProperty Name="PayPoint" ColumnName="PayPoint" />
+          <ScalarProperty Name="getPoints" ColumnName="getPoints" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+          <ScalarProperty Name="TDate" ColumnName="TDate" />
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="DisCountAmt" ColumnName="DisCountAmt" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="IVNO" ColumnName="IVNO" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departs">
+      <EntityTypeMapping TypeName="FullonHotelModel.Depart">
+        <MappingFragment StoreEntitySet="Depart">
+          <ScalarProperty Name="sdid" ColumnName="sdid" />
+          <ScalarProperty Name="DpID" ColumnName="DpID" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="DKind" ColumnName="DKind" />
+          <ScalarProperty Name="DDate" ColumnName="DDate" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="BNOs" ColumnName="BNOs" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="SNO" ColumnName="SNO" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="eSNO2" ColumnName="eSNO2" />
+          <ScalarProperty Name="Edate" ColumnName="Edate" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+          <ScalarProperty Name="IsOnLine" ColumnName="IsOnLine" />
+          <ScalarProperty Name="IsChose" ColumnName="IsChose" />
+          <ScalarProperty Name="IsTop" ColumnName="IsTop" />
+          <ScalarProperty Name="IsAgt" ColumnName="IsAgt" />
+          <ScalarProperty Name="org_id" ColumnName="org_id" />
+          <ScalarProperty Name="tt" ColumnName="tt" />
+          <ScalarProperty Name="IsUnCheck" ColumnName="IsUnCheck" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Company2" ColumnName="Company2" />
+          <ScalarProperty Name="IVNO" ColumnName="IVNO" />
+          <ScalarProperty Name="TaxNO" ColumnName="TaxNO" />
+          <ScalarProperty Name="TEL" ColumnName="TEL" />
+          <ScalarProperty Name="Addr" ColumnName="Addr" />
+          <ScalarProperty Name="Addr2" ColumnName="Addr2" />
+          <ScalarProperty Name="IsIV" ColumnName="IsIV" />
+          <ScalarProperty Name="IVtype" ColumnName="IVtype" />
+          <ScalarProperty Name="IsChIV" ColumnName="IsChIV" />
+          <ScalarProperty Name="IsPrtIVok" ColumnName="IsPrtIVok" />
+          <ScalarProperty Name="IsSum" ColumnName="IsSum" />
+          <ScalarProperty Name="IsStocks" ColumnName="IsStocks" />
+          <ScalarProperty Name="IsCashBox" ColumnName="IsCashBox" />
+          <ScalarProperty Name="D_SpotKind" ColumnName="D_SpotKind" />
+          <ScalarProperty Name="D_Spot" ColumnName="D_Spot" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DepartBoms">
+      <EntityTypeMapping TypeName="FullonHotelModel.DepartBom">
+        <MappingFragment StoreEntitySet="DepartBom">
+          <ScalarProperty Name="bomid" ColumnName="bomid" />
+          <ScalarProperty Name="IsOK" ColumnName="IsOK" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="BNOs" ColumnName="BNOs" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DuplicateLogins">
+      <EntityTypeMapping TypeName="FullonHotelModel.DuplicateLogin">
+        <MappingFragment StoreEntitySet="DuplicateLogin">
+          <ScalarProperty Name="D_ID" ColumnName="D_ID" />
+          <ScalarProperty Name="D_Type" ColumnName="D_Type" />
+          <ScalarProperty Name="D_UID" ColumnName="D_UID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="FullonHotelModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EDate" ColumnName="EDate" />
+          <ScalarProperty Name="esno" ColumnName="esno" />
+          <ScalarProperty Name="IsPrv" ColumnName="IsPrv" />
+          <ScalarProperty Name="PrvEsno" ColumnName="PrvEsno" />
+          <ScalarProperty Name="IsMod" ColumnName="IsMod" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="IsEflow" ColumnName="IsEflow" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+          <ScalarProperty Name="AuthCode" ColumnName="AuthCode" />
+          <ScalarProperty Name="AuthCodeLimit" ColumnName="AuthCodeLimit" />
+          <ScalarProperty Name="emlyNO" ColumnName="emlyNO" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="En_Name" ColumnName="En_Name" />
+          <ScalarProperty Name="BNO" ColumnName="BNO" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="IsSM" ColumnName="IsSM" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="PostTitle" ColumnName="PostTitle" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="ELevelNO" ColumnName="ELevelNO" />
+          <ScalarProperty Name="ELevelNum" ColumnName="ELevelNum" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Birth" ColumnName="Birth" />
+          <ScalarProperty Name="IDNO" ColumnName="IDNO" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+          <ScalarProperty Name="Major" ColumnName="Major" />
+          <ScalarProperty Name="Skill" ColumnName="Skill" />
+          <ScalarProperty Name="Marry" ColumnName="Marry" />
+          <ScalarProperty Name="Adate" ColumnName="Adate" />
+          <ScalarProperty Name="TrialDate" ColumnName="TrialDate" />
+          <ScalarProperty Name="Ldate" ColumnName="Ldate" />
+          <ScalarProperty Name="Lcause" ColumnName="Lcause" />
+          <ScalarProperty Name="PretireDate" ColumnName="PretireDate" />
+          <ScalarProperty Name="RetireDate" ColumnName="RetireDate" />
+          <ScalarProperty Name="InsureKind" ColumnName="InsureKind" />
+          <ScalarProperty Name="TelArea1" ColumnName="TelArea1" />
+          <ScalarProperty Name="Tel1" ColumnName="Tel1" />
+          <ScalarProperty Name="Tel1Ext" ColumnName="Tel1Ext" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="TelArea2" ColumnName="TelArea2" />
+          <ScalarProperty Name="Tel2" ColumnName="Tel2" />
+          <ScalarProperty Name="Email1" ColumnName="Email1" />
+          <ScalarProperty Name="Email2" ColumnName="Email2" />
+          <ScalarProperty Name="ZIP" ColumnName="ZIP" />
+          <ScalarProperty Name="Zip_sub" ColumnName="Zip_sub" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Addr" ColumnName="Addr" />
+          <ScalarProperty Name="CZip" ColumnName="CZip" />
+          <ScalarProperty Name="CZip_sub" ColumnName="CZip_sub" />
+          <ScalarProperty Name="CCounty" ColumnName="CCounty" />
+          <ScalarProperty Name="CAddr" ColumnName="CAddr" />
+          <ScalarProperty Name="Ememo" ColumnName="Ememo" />
+          <ScalarProperty Name="IsPartTime" ColumnName="IsPartTime" />
+          <ScalarProperty Name="IsPinHole" ColumnName="IsPinHole" />
+          <ScalarProperty Name="IsSalary" ColumnName="IsSalary" />
+          <ScalarProperty Name="IsForeign" ColumnName="IsForeign" />
+          <ScalarProperty Name="CardNo" ColumnName="CardNo" />
+          <ScalarProperty Name="SalarID" ColumnName="SalarID" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="WorkNums" ColumnName="WorkNums" />
+          <ScalarProperty Name="SpecDays" ColumnName="SpecDays" />
+          <ScalarProperty Name="HealthNO" ColumnName="HealthNO" />
+          <ScalarProperty Name="LaborNO" ColumnName="LaborNO" />
+          <ScalarProperty Name="HealthNums" ColumnName="HealthNums" />
+          <ScalarProperty Name="LaborNums" ColumnName="LaborNums" />
+          <ScalarProperty Name="Bank" ColumnName="Bank" />
+          <ScalarProperty Name="BankBrand" ColumnName="BankBrand" />
+          <ScalarProperty Name="BankNO" ColumnName="BankNO" />
+          <ScalarProperty Name="TaxWay" ColumnName="TaxWay" />
+          <ScalarProperty Name="RaiseNums" ColumnName="RaiseNums" />
+          <ScalarProperty Name="MaimedRate" ColumnName="MaimedRate" />
+          <ScalarProperty Name="TaxNums" ColumnName="TaxNums" />
+          <ScalarProperty Name="TaxRate" ColumnName="TaxRate" />
+          <ScalarProperty Name="IsNonLeave" ColumnName="IsNonLeave" />
+          <ScalarProperty Name="IsExtra" ColumnName="IsExtra" />
+          <ScalarProperty Name="PayWay" ColumnName="PayWay" />
+          <ScalarProperty Name="HealthDate" ColumnName="HealthDate" />
+          <ScalarProperty Name="EnterDate" ColumnName="EnterDate" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="IsConfirm" ColumnName="IsConfirm" />
+          <ScalarProperty Name="IsUpDate" ColumnName="IsUpDate" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="PdChgDate" ColumnName="PdChgDate" />
+          <ScalarProperty Name="LogErrs" ColumnName="LogErrs" />
+          <ScalarProperty Name="LogErrsDate" ColumnName="LogErrsDate" />
+          <ScalarProperty Name="IsPics" ColumnName="IsPics" />
+          <ScalarProperty Name="PicsType" ColumnName="PicsType" />
+          <ScalarProperty Name="IsIdnoPics" ColumnName="IsIdnoPics" />
+          <ScalarProperty Name="IdnoPicsType1" ColumnName="IdnoPicsType1" />
+          <ScalarProperty Name="IdnoPicsType2" ColumnName="IdnoPicsType2" />
+          <ScalarProperty Name="font" ColumnName="font" />
+          <ScalarProperty Name="treetype" ColumnName="treetype" />
+          <ScalarProperty Name="sign_id" ColumnName="sign_id" />
+          <ScalarProperty Name="attr" ColumnName="attr" />
+          <ScalarProperty Name="group_property" ColumnName="group_property" />
+          <ScalarProperty Name="mailquota" ColumnName="mailquota" />
+          <ScalarProperty Name="IsMailIn" ColumnName="IsMailIn" />
+          <ScalarProperty Name="IsMailOut" ColumnName="IsMailOut" />
+          <ScalarProperty Name="IsUse" ColumnName="IsUse" />
+          <ScalarProperty Name="OneMailCounts" ColumnName="OneMailCounts" />
+          <ScalarProperty Name="JustView" ColumnName="JustView" />
+          <ScalarProperty Name="mailCC" ColumnName="mailCC" />
+          <ScalarProperty Name="MailCounts" ColumnName="MailCounts" />
+          <ScalarProperty Name="chgEsno" ColumnName="chgEsno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="dflDate" ColumnName="dflDate" />
+          <ScalarProperty Name="nflDate" ColumnName="nflDate" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="IsSMS" ColumnName="IsSMS" />
+          <ScalarProperty Name="IsOvertime" ColumnName="IsOvertime" />
+          <ScalarProperty Name="SysUse" ColumnName="SysUse" />
+          <ScalarProperty Name="IsFWork" ColumnName="IsFWork" />
+          <ScalarProperty Name="IsMeetingAdmin" ColumnName="IsMeetingAdmin" />
+          <ScalarProperty Name="truePassword" ColumnName="truePassword" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FKinds">
+      <EntityTypeMapping TypeName="FullonHotelModel.FKind">
+        <MappingFragment StoreEntitySet="FKind">
+          <ScalarProperty Name="Fkind11" ColumnName="Fkind1" />
+          <ScalarProperty Name="FkindNo" ColumnName="FkindNo" />
+          <ScalarProperty Name="FKdate" ColumnName="FKdate" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+          <ScalarProperty Name="En_Fkind" ColumnName="En_Fkind" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hklists">
+      <EntityTypeMapping TypeName="FullonHotelModel.hklist">
+        <MappingFragment StoreEntitySet="hklist">
+          <ScalarProperty Name="hk_id" ColumnName="hk_id" />
+          <ScalarProperty Name="hk_storeid" ColumnName="hk_storeid" />
+          <ScalarProperty Name="hk_url" ColumnName="hk_url" />
+          <ScalarProperty Name="hk_page" ColumnName="hk_page" />
+          <ScalarProperty Name="hk_str" ColumnName="hk_str" />
+          <ScalarProperty Name="hk_ip" ColumnName="hk_ip" />
+          <ScalarProperty Name="hk_date" ColumnName="hk_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="FullonHotelModel.Item">
+        <MappingFragment StoreEntitySet="Item">
+          <ScalarProperty Name="Item11" ColumnName="Item1" />
+          <ScalarProperty Name="SkindNo" ColumnName="SkindNo" />
+          <ScalarProperty Name="ItemNO" ColumnName="ItemNO" />
+          <ScalarProperty Name="ITdate" ColumnName="ITdate" />
+          <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="En_Item" ColumnName="En_Item" />
+          <ScalarProperty Name="IName" ColumnName="IName" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Item_Sub">
+      <EntityTypeMapping TypeName="FullonHotelModel.Item_Sub">
+        <MappingFragment StoreEntitySet="Item_Sub">
+          <ScalarProperty Name="ItemNO" ColumnName="ItemNO" />
+          <ScalarProperty Name="ItemSNo" ColumnName="ItemSNo" />
+          <ScalarProperty Name="ISTdate" ColumnName="ISTdate" />
+          <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="ItemS" ColumnName="ItemS" />
+          <ScalarProperty Name="En_ItemS" ColumnName="En_ItemS" />
+          <ScalarProperty Name="ISName" ColumnName="ISName" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loginouts">
+      <EntityTypeMapping TypeName="FullonHotelModel.Loginout">
+        <MappingFragment StoreEntitySet="Loginout">
+          <ScalarProperty Name="Ioid" ColumnName="Ioid" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Logintime" ColumnName="Logintime" />
+          <ScalarProperty Name="Temptime" ColumnName="Temptime" />
+          <ScalarProperty Name="Logouttime" ColumnName="Logouttime" />
+          <ScalarProperty Name="StayTime" ColumnName="StayTime" />
+          <ScalarProperty Name="IPAddr" ColumnName="IPAddr" />
+          <ScalarProperty Name="PageNo" ColumnName="PageNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="FullonHotelModel.Member">
+        <MappingFragment StoreEntitySet="Member">
+          <ScalarProperty Name="C____以下待整理End____1" ColumnName="C____以下待整理End____" />
+          <ScalarProperty Name="C____以下待整理Start____1" ColumnName="C____以下待整理Start____" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="Mdate" ColumnName="Mdate" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="MKind" ColumnName="MKind" />
+          <ScalarProperty Name="FrmType" ColumnName="FrmType" />
+          <ScalarProperty Name="FrmSC_Id" ColumnName="FrmSC_Id" />
+          <ScalarProperty Name="FrmOther" ColumnName="FrmOther" />
+          <ScalarProperty Name="IsAuthCheck" ColumnName="IsAuthCheck" />
+          <ScalarProperty Name="AuthCheckTime" ColumnName="AuthCheckTime" />
+          <ScalarProperty Name="AuthCode" ColumnName="AuthCode" />
+          <ScalarProperty Name="AuthCodeLimit" ColumnName="AuthCodeLimit" />
+          <ScalarProperty Name="IsReSet" ColumnName="IsReSet" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="IsBad" ColumnName="IsBad" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="CrNO" ColumnName="CrNO" />
+          <ScalarProperty Name="mCrNO" ColumnName="mCrNO" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Birth" ColumnName="Birth" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Zip_sub" ColumnName="Zip_sub" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+          <ScalarProperty Name="Addr" ColumnName="Addr" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="SSex" ColumnName="SSex" />
+          <ScalarProperty Name="SZip" ColumnName="SZip" />
+          <ScalarProperty Name="SZip_sub" ColumnName="SZip_sub" />
+          <ScalarProperty Name="SCounty" ColumnName="SCounty" />
+          <ScalarProperty Name="STown" ColumnName="STown" />
+          <ScalarProperty Name="SAddr" ColumnName="SAddr" />
+          <ScalarProperty Name="STel" ColumnName="STel" />
+          <ScalarProperty Name="SMobile" ColumnName="SMobile" />
+          <ScalarProperty Name="SEmail" ColumnName="SEmail" />
+          <ScalarProperty Name="InvoiceType" ColumnName="InvoiceType" />
+          <ScalarProperty Name="InvoiceBuyName" ColumnName="InvoiceBuyName" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="InvoiceTitle" ColumnName="InvoiceTitle" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="Account_chat" ColumnName="Account_chat" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Passwordword" ColumnName="Passwordword" />
+          <ScalarProperty Name="FBID" ColumnName="FBID" />
+          <ScalarProperty Name="GoogleID" ColumnName="GoogleID" />
+          <ScalarProperty Name="LineID" ColumnName="LineID" />
+          <ScalarProperty Name="LogIP" ColumnName="LogIP" />
+          <ScalarProperty Name="App_FBID" ColumnName="App_FBID" />
+          <ScalarProperty Name="App_GoogleID" ColumnName="App_GoogleID" />
+          <ScalarProperty Name="LoginTime" ColumnName="LoginTime" />
+          <ScalarProperty Name="LogoutTime" ColumnName="LogoutTime" />
+          <ScalarProperty Name="LoginTimeprv" ColumnName="LoginTimeprv" />
+          <ScalarProperty Name="LoginErr" ColumnName="LoginErr" />
+          <ScalarProperty Name="LoginErrTime" ColumnName="LoginErrTime" />
+          <ScalarProperty Name="LoginErrIP" ColumnName="LoginErrIP" />
+          <ScalarProperty Name="IsGetGift" ColumnName="IsGetGift" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="eCrNO" ColumnName="eCrNO" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="PicsName" ColumnName="PicsName" />
+          <ScalarProperty Name="LPicsName" ColumnName="LPicsName" />
+          <ScalarProperty Name="IsAotpCheck" ColumnName="IsAotpCheck" />
+          <ScalarProperty Name="IsChk" ColumnName="IsChk" />
+          <ScalarProperty Name="IsInStore" ColumnName="IsInStore" />
+          <ScalarProperty Name="IsGetVINO" ColumnName="IsGetVINO" />
+          <ScalarProperty Name="token" ColumnName="token" />
+          <ScalarProperty Name="IsSMS" ColumnName="IsSMS" />
+          <ScalarProperty Name="IsEpaper" ColumnName="IsEpaper" />
+          <ScalarProperty Name="IsFeedBack" ColumnName="IsFeedBack" />
+          <ScalarProperty Name="IsPdCount" ColumnName="IsPdCount" />
+          <ScalarProperty Name="UpGradeDate" ColumnName="UpGradeDate" />
+          <ScalarProperty Name="LevelDate" ColumnName="LevelDate" />
+          <ScalarProperty Name="CrLost" ColumnName="CrLost" />
+          <ScalarProperty Name="nowPoint" ColumnName="nowPoint" />
+          <ScalarProperty Name="nextPoint" ColumnName="nextPoint" />
+          <ScalarProperty Name="threePoint" ColumnName="threePoint" />
+          <ScalarProperty Name="IsStop" ColumnName="IsStop" />
+          <ScalarProperty Name="FstCdate" ColumnName="FstCdate" />
+          <ScalarProperty Name="FstCamt" ColumnName="FstCamt" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Member_Auth">
+      <EntityTypeMapping TypeName="FullonHotelModel.Member_Auth">
+        <MappingFragment StoreEntitySet="Member_Auth">
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="CheckCodeResult" ColumnName="CheckCodeResult" />
+          <ScalarProperty Name="IsSuccess" ColumnName="IsSuccess" />
+          <ScalarProperty Name="AuthTime" ColumnName="AuthTime" />
+          <ScalarProperty Name="userMobile" ColumnName="userMobile" />
+          <ScalarProperty Name="userIP" ColumnName="userIP" />
+          <ScalarProperty Name="IsSMSsend" ColumnName="IsSMSsend" />
+          <ScalarProperty Name="SMSdate" ColumnName="SMSdate" />
+          <ScalarProperty Name="SMScode" ColumnName="SMScode" />
+          <ScalarProperty Name="IsSMSok" ColumnName="IsSMSok" />
+          <ScalarProperty Name="SMSerrors" ColumnName="SMSerrors" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Member_CrNO">
+      <EntityTypeMapping TypeName="FullonHotelModel.Member_CrNO">
+        <MappingFragment StoreEntitySet="Member_CrNO">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="CrNo" ColumnName="CrNo" />
+          <ScalarProperty Name="CrLost" ColumnName="CrLost" />
+          <ScalarProperty Name="LostDate" ColumnName="LostDate" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Member_Grp">
+      <EntityTypeMapping TypeName="FullonHotelModel.Member_Grp">
+        <MappingFragment StoreEntitySet="Member_Grp">
+          <ScalarProperty Name="mbgid" ColumnName="mbgid" />
+          <ScalarProperty Name="mbgDate" ColumnName="mbgDate" />
+          <ScalarProperty Name="mgbSortNO" ColumnName="mgbSortNO" />
+          <ScalarProperty Name="mgbName" ColumnName="mgbName" />
+          <ScalarProperty Name="mgbMemo" ColumnName="mgbMemo" />
+          <ScalarProperty Name="mgbEsno" ColumnName="mgbEsno" />
+          <ScalarProperty Name="mgbUDate" ColumnName="mgbUDate" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Member_GrpUser">
+      <EntityTypeMapping TypeName="FullonHotelModel.Member_GrpUser">
+        <MappingFragment StoreEntitySet="Member_GrpUser">
+          <ScalarProperty Name="mbguid" ColumnName="mbguid" />
+          <ScalarProperty Name="mbguDate" ColumnName="mbguDate" />
+          <ScalarProperty Name="mbgid" ColumnName="mbgid" />
+          <ScalarProperty Name="mbguMidno" ColumnName="mbguMidno" />
+          <ScalarProperty Name="mbguMemo" ColumnName="mbguMemo" />
+          <ScalarProperty Name="mbguEsno" ColumnName="mbguEsno" />
+          <ScalarProperty Name="mbguUDate" ColumnName="mbguUDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Member_Join">
+      <EntityTypeMapping TypeName="FullonHotelModel.Member_Join">
+        <MappingFragment StoreEntitySet="Member_Join">
+          <ScalarProperty Name="mjid" ColumnName="mjid" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="Ndate" ColumnName="Ndate" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Sidno" ColumnName="Sidno" />
+          <ScalarProperty Name="MKind" ColumnName="MKind" />
+          <ScalarProperty Name="IsRecive" ColumnName="IsRecive" />
+          <ScalarProperty Name="IsSMS" ColumnName="IsSMS" />
+          <ScalarProperty Name="TotalAmt" ColumnName="TotalAmt" />
+          <ScalarProperty Name="TotalHiCash" ColumnName="TotalHiCash" />
+          <ScalarProperty Name="JoinNote" ColumnName="JoinNote" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Member_Level">
+      <EntityTypeMapping TypeName="FullonHotelModel.Member_Level">
+        <MappingFragment StoreEntitySet="Member_Level">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Rule1" ColumnName="Rule1" />
+          <ScalarProperty Name="Rule2" ColumnName="Rule2" />
+          <ScalarProperty Name="Exchange" ColumnName="Exchange" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Member_LevelHis">
+      <EntityTypeMapping TypeName="FullonHotelModel.Member_LevelHis">
+        <MappingFragment StoreEntitySet="Member_LevelHis">
+          <ScalarProperty Name="mlid" ColumnName="mlid" />
+          <ScalarProperty Name="mlDate" ColumnName="mlDate" />
+          <ScalarProperty Name="mlMidno" ColumnName="mlMidno" />
+          <ScalarProperty Name="mlKind" ColumnName="mlKind" />
+          <ScalarProperty Name="mblid" ColumnName="mblid" />
+          <ScalarProperty Name="mlSDate" ColumnName="mlSDate" />
+          <ScalarProperty Name="mlEDate" ColumnName="mlEDate" />
+          <ScalarProperty Name="mlTgAmt" ColumnName="mlTgAmt" />
+          <ScalarProperty Name="mlNowAmt" ColumnName="mlNowAmt" />
+          <ScalarProperty Name="mlMemo" ColumnName="mlMemo" />
+          <ScalarProperty Name="mlEsno" ColumnName="mlEsno" />
+          <ScalarProperty Name="mlUDate" ColumnName="mlUDate" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MemberPhs">
+      <EntityTypeMapping TypeName="FullonHotelModel.MemberPh">
+        <MappingFragment StoreEntitySet="MemberPh">
+          <ScalarProperty Name="mpid" ColumnName="mpid" />
+          <ScalarProperty Name="mpdate" ColumnName="mpdate" />
+          <ScalarProperty Name="mpKind" ColumnName="mpKind" />
+          <ScalarProperty Name="mpStoreID" ColumnName="mpStoreID" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="mpIMEI" ColumnName="mpIMEI" />
+          <ScalarProperty Name="mpMobile" ColumnName="mpMobile" />
+          <ScalarProperty Name="mpPhoneType" ColumnName="mpPhoneType" />
+          <ScalarProperty Name="Vers" ColumnName="Vers" />
+          <ScalarProperty Name="AppVers" ColumnName="AppVers" />
+          <ScalarProperty Name="mpPhoneSize" ColumnName="mpPhoneSize" />
+          <ScalarProperty Name="mpOS" ColumnName="mpOS" />
+          <ScalarProperty Name="mpDeviceID" ColumnName="mpDeviceID" />
+          <ScalarProperty Name="mpIsSMS" ColumnName="mpIsSMS" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MemberSMS">
+      <EntityTypeMapping TypeName="FullonHotelModel.MemberSM">
+        <MappingFragment StoreEntitySet="MemberSMS">
+          <ScalarProperty Name="msID" ColumnName="msID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="sbid" ColumnName="sbid" />
+          <ScalarProperty Name="bcid" ColumnName="bcid" />
+          <ScalarProperty Name="frmType" ColumnName="frmType" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="PushType" ColumnName="PushType" />
+          <ScalarProperty Name="SPics" ColumnName="SPics" />
+          <ScalarProperty Name="LPics" ColumnName="LPics" />
+          <ScalarProperty Name="WUrl" ColumnName="WUrl" />
+          <ScalarProperty Name="TitleName" ColumnName="TitleName" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="SubSubject" ColumnName="SubSubject" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+          <ScalarProperty Name="SMSkind" ColumnName="SMSkind" />
+          <ScalarProperty Name="SMSid" ColumnName="SMSid" />
+          <ScalarProperty Name="SMSisMeb" ColumnName="SMSisMeb" />
+          <ScalarProperty Name="SMSmidno" ColumnName="SMSmidno" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="SendNums" ColumnName="SendNums" />
+          <ScalarProperty Name="SendDate" ColumnName="SendDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MemberSMS_SendList">
+      <EntityTypeMapping TypeName="FullonHotelModel.MemberSMS_SendList">
+        <MappingFragment StoreEntitySet="MemberSMS_SendList">
+          <ScalarProperty Name="mssid" ColumnName="mssid" />
+          <ScalarProperty Name="mssDate" ColumnName="mssDate" />
+          <ScalarProperty Name="mssLang" ColumnName="mssLang" />
+          <ScalarProperty Name="frmKind" ColumnName="frmKind" />
+          <ScalarProperty Name="PushType" ColumnName="PushType" />
+          <ScalarProperty Name="msID" ColumnName="msID" />
+          <ScalarProperty Name="mpid" ColumnName="mpid" />
+          <ScalarProperty Name="TitleName" ColumnName="TitleName" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="StoreName" ColumnName="StoreName" />
+          <ScalarProperty Name="mssEsno" ColumnName="mssEsno" />
+          <ScalarProperty Name="mssMidno" ColumnName="mssMidno" />
+          <ScalarProperty Name="mssName" ColumnName="mssName" />
+          <ScalarProperty Name="mssMobile" ColumnName="mssMobile" />
+          <ScalarProperty Name="SMSstring" ColumnName="SMSstring" />
+          <ScalarProperty Name="IsSend" ColumnName="IsSend" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="SendStatus" ColumnName="SendStatus" />
+          <ScalarProperty Name="SendError" ColumnName="SendError" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="FullonHotelModel.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="NwID" ColumnName="NwID" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Sidno" ColumnName="Sidno" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Grp_ID" ColumnName="Grp_ID" />
+          <ScalarProperty Name="Vers" ColumnName="Vers" />
+          <ScalarProperty Name="IsOnLine" ColumnName="IsOnLine" />
+          <ScalarProperty Name="IsTop" ColumnName="IsTop" />
+          <ScalarProperty Name="IsBanner" ColumnName="IsBanner" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="MetaDesc" ColumnName="MetaDesc" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="ogTitle" ColumnName="ogTitle" />
+          <ScalarProperty Name="ogDesc" ColumnName="ogDesc" />
+          <ScalarProperty Name="ogURL" ColumnName="ogURL" />
+          <ScalarProperty Name="ogIMG" ColumnName="ogIMG" />
+          <ScalarProperty Name="ogPicsType" ColumnName="ogPicsType" />
+          <ScalarProperty Name="PicsName" ColumnName="PicsName" />
+          <ScalarProperty Name="PicsType" ColumnName="PicsType" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="frmURL" ColumnName="frmURL" />
+          <ScalarProperty Name="toURL" ColumnName="toURL" />
+          <ScalarProperty Name="HitNums" ColumnName="HitNums" />
+          <ScalarProperty Name="PostedOrigin" ColumnName="PostedOrigin" />
+          <ScalarProperty Name="PostedOriginUrl" ColumnName="PostedOriginUrl" />
+          <ScalarProperty Name="ViewCount" ColumnName="ViewCount" />
+          <ScalarProperty Name="WebTag" ColumnName="WebTag" />
+          <ScalarProperty Name="YearNews" ColumnName="YearNews" />
+          <ScalarProperty Name="Place" ColumnName="Place" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="NCity" ColumnName="NCity" />
+          <ScalarProperty Name="summary" ColumnName="summary" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News_Grp">
+      <EntityTypeMapping TypeName="FullonHotelModel.News_Grp">
+        <MappingFragment StoreEntitySet="News_Grp">
+          <ScalarProperty Name="Grp_ID" ColumnName="Grp_ID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="GrpKind" ColumnName="GrpKind" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="GrpName" ColumnName="GrpName" />
+          <ScalarProperty Name="En_GrpName" ColumnName="En_GrpName" />
+          <ScalarProperty Name="Sm_GrpName" ColumnName="Sm_GrpName" />
+          <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notices">
+      <EntityTypeMapping TypeName="FullonHotelModel.Notice">
+        <MappingFragment StoreEntitySet="Notice">
+          <ScalarProperty Name="noid" ColumnName="noid" />
+          <ScalarProperty Name="noDate" ColumnName="noDate" />
+          <ScalarProperty Name="noEsno" ColumnName="noEsno" />
+          <ScalarProperty Name="noKind" ColumnName="noKind" />
+          <ScalarProperty Name="noSubject" ColumnName="noSubject" />
+          <ScalarProperty Name="noContent" ColumnName="noContent" />
+          <ScalarProperty Name="noChkDate" ColumnName="noChkDate" />
+          <ScalarProperty Name="noNums" ColumnName="noNums" />
+          <ScalarProperty Name="noValue" ColumnName="noValue" />
+          <ScalarProperty Name="noMidno" ColumnName="noMidno" />
+          <ScalarProperty Name="noPrg" ColumnName="noPrg" />
+          <ScalarProperty Name="noPgID" ColumnName="noPgID" />
+          <ScalarProperty Name="noFmName" ColumnName="noFmName" />
+          <ScalarProperty Name="noFmTarget" ColumnName="noFmTarget" />
+          <ScalarProperty Name="noTbID" ColumnName="noTbID" />
+          <ScalarProperty Name="noTbName" ColumnName="noTbName" />
+          <ScalarProperty Name="noActDate" ColumnName="noActDate" />
+          <ScalarProperty Name="noReadDate" ColumnName="noReadDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnSales">
+      <EntityTypeMapping TypeName="FullonHotelModel.OnSale">
+        <MappingFragment StoreEntitySet="OnSales">
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="saDate" ColumnName="saDate" />
+          <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+          <ScalarProperty Name="saName" ColumnName="saName" />
+          <ScalarProperty Name="saSDate" ColumnName="saSDate" />
+          <ScalarProperty Name="saEDate" ColumnName="saEDate" />
+          <ScalarProperty Name="saCost" ColumnName="saCost" />
+          <ScalarProperty Name="saNow" ColumnName="saNow" />
+          <ScalarProperty Name="saDesc" ColumnName="saDesc" />
+          <ScalarProperty Name="saBanner" ColumnName="saBanner" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="summary" ColumnName="summary" />
+          <ScalarProperty Name="saSTime" ColumnName="saSTime" />
+          <ScalarProperty Name="saETime" ColumnName="saETime" />
+          <ScalarProperty Name="saFreeLimit" ColumnName="saFreeLimit" />
+          <ScalarProperty Name="PicsName" ColumnName="PicsName" />
+          <ScalarProperty Name="isDel" ColumnName="isDel" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnSales_Pidno">
+      <EntityTypeMapping TypeName="FullonHotelModel.OnSales_Pidno">
+        <MappingFragment StoreEntitySet="OnSales_Pidno">
+          <ScalarProperty Name="sapid" ColumnName="sapid" />
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="sapDate" ColumnName="sapDate" />
+          <ScalarProperty Name="sapSNO" ColumnName="sapSNO" />
+          <ScalarProperty Name="sapPidno" ColumnName="sapPidno" />
+          <ScalarProperty Name="sapRate" ColumnName="sapRate" />
+          <ScalarProperty Name="sapQty" ColumnName="sapQty" />
+          <ScalarProperty Name="sapBuyQty" ColumnName="sapBuyQty" />
+          <ScalarProperty Name="sapPrice" ColumnName="sapPrice" />
+          <ScalarProperty Name="sapMemo" ColumnName="sapMemo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnSales_Rate">
+      <EntityTypeMapping TypeName="FullonHotelModel.OnSales_Rate">
+        <MappingFragment StoreEntitySet="OnSales_Rate">
+          <ScalarProperty Name="sarid" ColumnName="sarid" />
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="sapid" ColumnName="sapid" />
+          <ScalarProperty Name="sarDate" ColumnName="sarDate" />
+          <ScalarProperty Name="sarSNO" ColumnName="sarSNO" />
+          <ScalarProperty Name="sarRate" ColumnName="sarRate" />
+          <ScalarProperty Name="sarMidno" ColumnName="sarMidno" />
+          <ScalarProperty Name="sarApplyID" ColumnName="sarApplyID" />
+          <ScalarProperty Name="sarADate" ColumnName="sarADate" />
+          <ScalarProperty Name="sarEsno" ColumnName="sarEsno" />
+          <ScalarProperty Name="sarUDate" ColumnName="sarUDate" />
+          <ScalarProperty Name="sapSNO" ColumnName="sapSNO" />
+          <ScalarProperty Name="sapPrice_id" ColumnName="sapPrice_id" />
+          <ScalarProperty Name="sapRate" ColumnName="sapRate" />
+          <ScalarProperty Name="sapPrice" ColumnName="sapPrice" />
+          <ScalarProperty Name="sapPayPoint" ColumnName="sapPayPoint" />
+          <ScalarProperty Name="Csid" ColumnName="Csid" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="FullonHotelModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="OId" ColumnName="OId" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="INVOamt" ColumnName="INVOamt" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Odate" ColumnName="Odate" />
+          <ScalarProperty Name="Otime" ColumnName="Otime" />
+          <ScalarProperty Name="Bonus" ColumnName="Bonus" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_INVO">
+      <EntityTypeMapping TypeName="FullonHotelModel.Order_INVO">
+        <MappingFragment StoreEntitySet="Order_INVO">
+          <ScalarProperty Name="OIVId" ColumnName="OIVId" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="InvoiceAmount" ColumnName="InvoiceAmount" />
+          <ScalarProperty Name="OId" ColumnName="OId" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_Sub">
+      <EntityTypeMapping TypeName="FullonHotelModel.Order_Sub">
+        <MappingFragment StoreEntitySet="Order_Sub">
+          <ScalarProperty Name="OSId" ColumnName="OSId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Acc" ColumnName="Acc" />
+          <ScalarProperty Name="AccName" ColumnName="AccName" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="MenuCode" ColumnName="MenuCode" />
+          <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+          <ScalarProperty Name="Num" ColumnName="Num" />
+          <ScalarProperty Name="ARNO" ColumnName="ARNO" />
+          <ScalarProperty Name="OId" ColumnName="OId" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Promotes">
+      <EntityTypeMapping TypeName="FullonHotelModel.Promote">
+        <MappingFragment StoreEntitySet="Promote">
+          <ScalarProperty Name="pmid" ColumnName="pmid" />
+          <ScalarProperty Name="pmdate" ColumnName="pmdate" />
+          <ScalarProperty Name="pmType" ColumnName="pmType" />
+          <ScalarProperty Name="isDel" ColumnName="isDel" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Sidno" ColumnName="Sidno" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="Stand" ColumnName="Stand" />
+          <ScalarProperty Name="DisRate" ColumnName="DisRate" />
+          <ScalarProperty Name="TotalAmt" ColumnName="TotalAmt" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="IsShowOn_App" ColumnName="IsShowOn_App" />
+          <ScalarProperty Name="MemberLevel" ColumnName="MemberLevel" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="DisProduct" ColumnName="DisProduct" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="ConsumptionType" ColumnName="ConsumptionType" />
+          <ScalarProperty Name="Limit" ColumnName="Limit" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Promote_Sub">
+      <EntityTypeMapping TypeName="FullonHotelModel.Promote_Sub">
+        <MappingFragment StoreEntitySet="Promote_Sub">
+          <ScalarProperty Name="pmids" ColumnName="pmids" />
+          <ScalarProperty Name="pmid" ColumnName="pmid" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="Price_id" ColumnName="Price_id" />
+          <ScalarProperty Name="Pidno" ColumnName="Pidno" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="IsTop" ColumnName="IsTop" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="En_Subject" ColumnName="En_Subject" />
+          <ScalarProperty Name="Sm_Subject" ColumnName="Sm_Subject" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="En_SubTitle" ColumnName="En_SubTitle" />
+          <ScalarProperty Name="Sm_SubTitle" ColumnName="Sm_SubTitle" />
+          <ScalarProperty Name="QTY" ColumnName="QTY" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="DiscountMoney" ColumnName="DiscountMoney" />
+          <ScalarProperty Name="GiftPoints" ColumnName="GiftPoints" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QCash_Book">
+      <EntityTypeMapping TypeName="FullonHotelModel.QCash_Book">
+        <MappingFragment StoreEntitySet="QCash_Book">
+          <ScalarProperty Name="qcbid" ColumnName="qcbid" />
+          <ScalarProperty Name="qcid" ColumnName="qcid" />
+          <ScalarProperty Name="qcbKind" ColumnName="qcbKind" />
+          <ScalarProperty Name="bonred_id" ColumnName="bonred_id" />
+          <ScalarProperty Name="bonsue_id" ColumnName="bonsue_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="qcbUse" ColumnName="qcbUse" />
+          <ScalarProperty Name="qcbIn" ColumnName="qcbIn" />
+          <ScalarProperty Name="qcbStatus" ColumnName="qcbStatus" />
+          <ScalarProperty Name="qcbRemarks" ColumnName="qcbRemarks" />
+          <ScalarProperty Name="qcbBalance" ColumnName="qcbBalance" />
+          <ScalarProperty Name="bonban_latest" ColumnName="bonban_latest" />
+          <ScalarProperty Name="qcbDate" ColumnName="qcbDate" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="quid" ColumnName="quid" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="IsOut" ColumnName="IsOut" />
+          <ScalarProperty Name="OutDate" ColumnName="OutDate" />
+          <ScalarProperty Name="OutName" ColumnName="OutName" />
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="LastDate" ColumnName="LastDate" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rights">
+      <EntityTypeMapping TypeName="FullonHotelModel.Right">
+        <MappingFragment StoreEntitySet="Rights">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="PgID" ColumnName="PgID" />
+          <ScalarProperty Name="IsAdd" ColumnName="IsAdd" />
+          <ScalarProperty Name="IsMod" ColumnName="IsMod" />
+          <ScalarProperty Name="IsQry" ColumnName="IsQry" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="IsChk" ColumnName="IsChk" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule_Circle">
+      <EntityTypeMapping TypeName="FullonHotelModel.Schedule_Circle">
+        <MappingFragment StoreEntitySet="Schedule_Circle">
+          <ScalarProperty Name="CircleID" ColumnName="CircleID" />
+          <ScalarProperty Name="SDate" ColumnName="SDate" />
+          <ScalarProperty Name="EDate" ColumnName="EDate" />
+          <ScalarProperty Name="Circle_Mode" ColumnName="Circle_Mode" />
+          <ScalarProperty Name="Sun" ColumnName="Sun" />
+          <ScalarProperty Name="Mon" ColumnName="Mon" />
+          <ScalarProperty Name="Tue" ColumnName="Tue" />
+          <ScalarProperty Name="Wed" ColumnName="Wed" />
+          <ScalarProperty Name="Thr" ColumnName="Thr" />
+          <ScalarProperty Name="Fri" ColumnName="Fri" />
+          <ScalarProperty Name="Sat" ColumnName="Sat" />
+          <ScalarProperty Name="month_days" ColumnName="month_days" />
+          <ScalarProperty Name="Days" ColumnName="Days" />
+          <ScalarProperty Name="Seq" ColumnName="Seq" />
+          <ScalarProperty Name="Weeks" ColumnName="Weeks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule_File">
+      <EntityTypeMapping TypeName="FullonHotelModel.Schedule_File">
+        <MappingFragment StoreEntitySet="Schedule_File">
+          <ScalarProperty Name="Schfid" ColumnName="Schfid" />
+          <ScalarProperty Name="Schid" ColumnName="Schid" />
+          <ScalarProperty Name="Schnid" ColumnName="Schnid" />
+          <ScalarProperty Name="SchfDate" ColumnName="SchfDate" />
+          <ScalarProperty Name="SchfName" ColumnName="SchfName" />
+          <ScalarProperty Name="SchfMemo" ColumnName="SchfMemo" />
+          <ScalarProperty Name="SchfEsno" ColumnName="SchfEsno" />
+          <ScalarProperty Name="SchfUDate" ColumnName="SchfUDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule_Main">
+      <EntityTypeMapping TypeName="FullonHotelModel.Schedule_Main">
+        <MappingFragment StoreEntitySet="Schedule_Main">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="WS_Kind" ColumnName="WS_Kind" />
+          <ScalarProperty Name="WS_ID" ColumnName="WS_ID" />
+          <ScalarProperty Name="SDate" ColumnName="SDate" />
+          <ScalarProperty Name="BeginHour" ColumnName="BeginHour" />
+          <ScalarProperty Name="BeginMin" ColumnName="BeginMin" />
+          <ScalarProperty Name="EndHour" ColumnName="EndHour" />
+          <ScalarProperty Name="EndMin" ColumnName="EndMin" />
+          <ScalarProperty Name="Allday" ColumnName="Allday" />
+          <ScalarProperty Name="MemberName" ColumnName="MemberName" />
+          <ScalarProperty Name="Chairman" ColumnName="Chairman" />
+          <ScalarProperty Name="CircleID" ColumnName="CircleID" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="ArlTime" ColumnName="ArlTime" />
+          <ScalarProperty Name="mnid" ColumnName="mnid" />
+          <ScalarProperty Name="wsnid" ColumnName="wsnid" />
+          <ScalarProperty Name="IsMail" ColumnName="IsMail" />
+          <ScalarProperty Name="SendMailTime" ColumnName="SendMailTime" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule_Page">
+      <EntityTypeMapping TypeName="FullonHotelModel.Schedule_Page">
+        <MappingFragment StoreEntitySet="Schedule_Page">
+          <ScalarProperty Name="SP_ID" ColumnName="SP_ID" />
+          <ScalarProperty Name="SP_Type" ColumnName="SP_Type" />
+          <ScalarProperty Name="SP_Mode" ColumnName="SP_Mode" />
+          <ScalarProperty Name="SP_UID" ColumnName="SP_UID" />
+          <ScalarProperty Name="SP_DID" ColumnName="SP_DID" />
+          <ScalarProperty Name="SP_Page" ColumnName="SP_Page" />
+          <ScalarProperty Name="SP_Mode2" ColumnName="SP_Mode2" />
+          <ScalarProperty Name="SP_Mode2_DID" ColumnName="SP_Mode2_DID" />
+          <ScalarProperty Name="SP_Public_Esno" ColumnName="SP_Public_Esno" />
+          <ScalarProperty Name="SP_Public" ColumnName="SP_Public" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule_Reply">
+      <EntityTypeMapping TypeName="FullonHotelModel.Schedule_Reply">
+        <MappingFragment StoreEntitySet="Schedule_Reply">
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="IDNO" ColumnName="IDNO" />
+          <ScalarProperty Name="Reply" ColumnName="Reply" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule_ToDo">
+      <EntityTypeMapping TypeName="FullonHotelModel.Schedule_ToDo">
+        <MappingFragment StoreEntitySet="Schedule_ToDo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="Toname" ColumnName="Toname" />
+          <ScalarProperty Name="Toesno" ColumnName="Toesno" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="IsFinish" ColumnName="IsFinish" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SKinds">
+      <EntityTypeMapping TypeName="FullonHotelModel.SKind">
+        <MappingFragment StoreEntitySet="SKind">
+          <ScalarProperty Name="Skind11" ColumnName="Skind1" />
+          <ScalarProperty Name="FkindNo" ColumnName="FkindNo" />
+          <ScalarProperty Name="SkindNO" ColumnName="SkindNO" />
+          <ScalarProperty Name="SKdate" ColumnName="SKdate" />
+          <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="En_Skind" ColumnName="En_Skind" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpecOrder_ApplyID">
+      <EntityTypeMapping TypeName="FullonHotelModel.SpecOrder_ApplyID">
+        <MappingFragment StoreEntitySet="SpecOrder_ApplyID">
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="CreatYear" ColumnName="CreatYear" />
+          <ScalarProperty Name="Snumber" ColumnName="Snumber" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="JoinSources" ColumnName="JoinSources" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpecOrderApplies">
+      <EntityTypeMapping TypeName="FullonHotelModel.SpecOrderApply">
+        <MappingFragment StoreEntitySet="SpecOrderApply">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SNO" ColumnName="SNO" />
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="ApplyIDTS" ColumnName="ApplyIDTS" />
+          <ScalarProperty Name="OutApplyid" ColumnName="OutApplyid" />
+          <ScalarProperty Name="gids" ColumnName="gids" />
+          <ScalarProperty Name="IsSure" ColumnName="IsSure" />
+          <ScalarProperty Name="SureDate" ColumnName="SureDate" />
+          <ScalarProperty Name="IsEnd" ColumnName="IsEnd" />
+          <ScalarProperty Name="Edate" ColumnName="Edate" />
+          <ScalarProperty Name="EndCause" ColumnName="EndCause" />
+          <ScalarProperty Name="IsChk" ColumnName="IsChk" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="IsBack" ColumnName="IsBack" />
+          <ScalarProperty Name="IsRptUpdate" ColumnName="IsRptUpdate" />
+          <ScalarProperty Name="ForwarderDef" ColumnName="ForwarderDef" />
+          <ScalarProperty Name="ShipTypeNo" ColumnName="ShipTypeNo" />
+          <ScalarProperty Name="Colorid" ColumnName="Colorid" />
+          <ScalarProperty Name="Sizeid" ColumnName="Sizeid" />
+          <ScalarProperty Name="main_Price_id" ColumnName="main_Price_id" />
+          <ScalarProperty Name="Price_id" ColumnName="Price_id" />
+          <ScalarProperty Name="Pidno" ColumnName="Pidno" />
+          <ScalarProperty Name="DType" ColumnName="DType" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+          <ScalarProperty Name="Extent1" ColumnName="Extent1" />
+          <ScalarProperty Name="Extent2" ColumnName="Extent2" />
+          <ScalarProperty Name="PKind" ColumnName="PKind" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="En_Item" ColumnName="En_Item" />
+          <ScalarProperty Name="Sm_Item" ColumnName="Sm_Item" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="En_Type" ColumnName="En_Type" />
+          <ScalarProperty Name="Sm_Type" ColumnName="Sm_Type" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="En_Brand" ColumnName="En_Brand" />
+          <ScalarProperty Name="Sm_Brand" ColumnName="Sm_Brand" />
+          <ScalarProperty Name="Oprice" ColumnName="Oprice" />
+          <ScalarProperty Name="Onums" ColumnName="Onums" />
+          <ScalarProperty Name="OutNums" ColumnName="OutNums" />
+          <ScalarProperty Name="BackNums" ColumnName="BackNums" />
+          <ScalarProperty Name="PrvPrice" ColumnName="PrvPrice" />
+          <ScalarProperty Name="RePrice" ColumnName="RePrice" />
+          <ScalarProperty Name="SPstandards" ColumnName="SPstandards" />
+          <ScalarProperty Name="TmPrice" ColumnName="TmPrice" />
+          <ScalarProperty Name="ReNum" ColumnName="ReNum" />
+          <ScalarProperty Name="ReDate" ColumnName="ReDate" />
+          <ScalarProperty Name="Price_Version" ColumnName="Price_Version" />
+          <ScalarProperty Name="orderno" ColumnName="orderno" />
+          <ScalarProperty Name="paymentno" ColumnName="paymentno" />
+          <ScalarProperty Name="validationno" ColumnName="validationno" />
+          <ScalarProperty Name="eshopid" ColumnName="eshopid" />
+          <ScalarProperty Name="eshopsonid" ColumnName="eshopsonid" />
+          <ScalarProperty Name="trade_status" ColumnName="trade_status" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="tempvar" ColumnName="tempvar" />
+          <ScalarProperty Name="account" ColumnName="account" />
+          <ScalarProperty Name="paycash_type" ColumnName="paycash_type" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="PaymentKind" ColumnName="PaymentKind" />
+          <ScalarProperty Name="PayQPrice" ColumnName="PayQPrice" />
+          <ScalarProperty Name="PayCashPrice" ColumnName="PayCashPrice" />
+          <ScalarProperty Name="recIsPreOrder" ColumnName="recIsPreOrder" />
+          <ScalarProperty Name="recIsQuoted" ColumnName="recIsQuoted" />
+          <ScalarProperty Name="IsManual" ColumnName="IsManual" />
+          <ScalarProperty Name="EscrowEsno" ColumnName="EscrowEsno" />
+          <ScalarProperty Name="In_Price" ColumnName="In_Price" />
+          <ScalarProperty Name="Iprice" ColumnName="Iprice" />
+          <ScalarProperty Name="Sprice" ColumnName="Sprice" />
+          <ScalarProperty Name="IsOrderDel" ColumnName="IsOrderDel" />
+          <ScalarProperty Name="IsFPurch" ColumnName="IsFPurch" />
+          <ScalarProperty Name="FPurchMotherGoods" ColumnName="FPurchMotherGoods" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+          <ScalarProperty Name="SourceKind" ColumnName="SourceKind" />
+          <ScalarProperty Name="QCash" ColumnName="QCash" />
+          <ScalarProperty Name="pmid" ColumnName="pmid" />
+          <ScalarProperty Name="UsedPrcode" ColumnName="UsedPrcode" />
+          <ScalarProperty Name="esno" ColumnName="esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="以下為產生綠界訂單資訊" ColumnName="以下為產生綠界訂單資訊" />
+          <ScalarProperty Name="MerchantID" ColumnName="MerchantID" />
+          <ScalarProperty Name="MerchantTradeNo" ColumnName="MerchantTradeNo" />
+          <ScalarProperty Name="RtnCode" ColumnName="RtnCode" />
+          <ScalarProperty Name="RtnMsg" ColumnName="RtnMsg" />
+          <ScalarProperty Name="AllPayLogisticsID" ColumnName="AllPayLogisticsID" />
+          <ScalarProperty Name="LogisticsType" ColumnName="LogisticsType" />
+          <ScalarProperty Name="LogisticsSubType" ColumnName="LogisticsSubType" />
+          <ScalarProperty Name="GoodsAmount" ColumnName="GoodsAmount" />
+          <ScalarProperty Name="UpdateStatusDate" ColumnName="UpdateStatusDate" />
+          <ScalarProperty Name="ReceiverName" ColumnName="ReceiverName" />
+          <ScalarProperty Name="ReceiverPhone" ColumnName="ReceiverPhone" />
+          <ScalarProperty Name="ReceiverCellPhone" ColumnName="ReceiverCellPhone" />
+          <ScalarProperty Name="ReceiverEmail" ColumnName="ReceiverEmail" />
+          <ScalarProperty Name="ReceiverAddress" ColumnName="ReceiverAddress" />
+          <ScalarProperty Name="CVSPaymentNo" ColumnName="CVSPaymentNo" />
+          <ScalarProperty Name="CVSValidationNo" ColumnName="CVSValidationNo" />
+          <ScalarProperty Name="BookingNote" ColumnName="BookingNote" />
+          <ScalarProperty Name="DiscountMoney2" ColumnName="DiscountMoney2" />
+          <ScalarProperty Name="DiscountRecord" ColumnName="DiscountRecord" />
+          <ScalarProperty Name="DiscountRecordBig" ColumnName="DiscountRecordBig" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpecOrderInfoes">
+      <EntityTypeMapping TypeName="FullonHotelModel.SpecOrderInfo">
+        <MappingFragment StoreEntitySet="SpecOrderInfo">
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="SNO" ColumnName="SNO" />
+          <ScalarProperty Name="Adate" ColumnName="Adate" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="OrderSource" ColumnName="OrderSource" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="IsSales" ColumnName="IsSales" />
+          <ScalarProperty Name="PayDate" ColumnName="PayDate" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Currency_No" ColumnName="Currency_No" />
+          <ScalarProperty Name="DiscountCash" ColumnName="DiscountCash" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="ReMark" ColumnName="ReMark" />
+          <ScalarProperty Name="ReMemo" ColumnName="ReMemo" />
+          <ScalarProperty Name="IsEnd" ColumnName="IsEnd" />
+          <ScalarProperty Name="IsMod" ColumnName="IsMod" />
+          <ScalarProperty Name="SZip" ColumnName="SZip" />
+          <ScalarProperty Name="SZip_sub" ColumnName="SZip_sub" />
+          <ScalarProperty Name="SCounty" ColumnName="SCounty" />
+          <ScalarProperty Name="SAddr" ColumnName="SAddr" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="STelArea" ColumnName="STelArea" />
+          <ScalarProperty Name="STel" ColumnName="STel" />
+          <ScalarProperty Name="SMobile" ColumnName="SMobile" />
+          <ScalarProperty Name="SEmail" ColumnName="SEmail" />
+          <ScalarProperty Name="SSex" ColumnName="SSex" />
+          <ScalarProperty Name="esno" ColumnName="esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="UseBens" ColumnName="UseBens" />
+          <ScalarProperty Name="CountBens" ColumnName="CountBens" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CSId" ColumnName="CSId" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="PayWay" ColumnName="PayWay" />
+          <ScalarProperty Name="PayCashPrice" ColumnName="PayCashPrice" />
+          <ScalarProperty Name="PayStatus" ColumnName="PayStatus" />
+          <ScalarProperty Name="OdStatus" ColumnName="OdStatus" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stores">
+      <EntityTypeMapping TypeName="FullonHotelModel.Store">
+        <MappingFragment StoreEntitySet="Store">
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="SDate" ColumnName="SDate" />
+          <ScalarProperty Name="FKind" ColumnName="FKind" />
+          <ScalarProperty Name="IsOnSale" ColumnName="IsOnSale" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="S_Com" ColumnName="S_Com" />
+          <ScalarProperty Name="Product" ColumnName="Product" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Zip_sub" ColumnName="Zip_sub" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+          <ScalarProperty Name="Addr" ColumnName="Addr" />
+          <ScalarProperty Name="CZip" ColumnName="CZip" />
+          <ScalarProperty Name="CZip_sub" ColumnName="CZip_sub" />
+          <ScalarProperty Name="CCounty" ColumnName="CCounty" />
+          <ScalarProperty Name="CTown" ColumnName="CTown" />
+          <ScalarProperty Name="CAddr" ColumnName="CAddr" />
+          <ScalarProperty Name="Tel1" ColumnName="Tel1" />
+          <ScalarProperty Name="Tel2" ColumnName="Tel2" />
+          <ScalarProperty Name="ext1" ColumnName="ext1" />
+          <ScalarProperty Name="ext2" ColumnName="ext2" />
+          <ScalarProperty Name="Fax1" ColumnName="Fax1" />
+          <ScalarProperty Name="Fax2" ColumnName="Fax2" />
+          <ScalarProperty Name="President" ColumnName="President" />
+          <ScalarProperty Name="PTel" ColumnName="PTel" />
+          <ScalarProperty Name="PMobile" ColumnName="PMobile" />
+          <ScalarProperty Name="PEmail" ColumnName="PEmail" />
+          <ScalarProperty Name="PIDNO" ColumnName="PIDNO" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="IDNO" ColumnName="IDNO" />
+          <ScalarProperty Name="SkypeNum" ColumnName="SkypeNum" />
+          <ScalarProperty Name="PDAccount" ColumnName="PDAccount" />
+          <ScalarProperty Name="InvoiceTitle" ColumnName="InvoiceTitle" />
+          <ScalarProperty Name="InvoiceNO" ColumnName="InvoiceNO" />
+          <ScalarProperty Name="PayWay" ColumnName="PayWay" />
+          <ScalarProperty Name="Bank" ColumnName="Bank" />
+          <ScalarProperty Name="BankBrand" ColumnName="BankBrand" />
+          <ScalarProperty Name="BankTitle" ColumnName="BankTitle" />
+          <ScalarProperty Name="BankNO" ColumnName="BankNO" />
+          <ScalarProperty Name="PayDay" ColumnName="PayDay" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Store_Name" ColumnName="Store_Name" />
+          <ScalarProperty Name="Store_Path" ColumnName="Store_Path" />
+          <ScalarProperty Name="Store_Logo" ColumnName="Store_Logo" />
+          <ScalarProperty Name="Store_Logo_Footer" ColumnName="Store_Logo_Footer" />
+          <ScalarProperty Name="Store_AppLogo" ColumnName="Store_AppLogo" />
+          <ScalarProperty Name="Store_Banner" ColumnName="Store_Banner" />
+          <ScalarProperty Name="Store_ShortIntro" ColumnName="Store_ShortIntro" />
+          <ScalarProperty Name="Store_Intro" ColumnName="Store_Intro" />
+          <ScalarProperty Name="Store_Owner" ColumnName="Store_Owner" />
+          <ScalarProperty Name="Store_Contact" ColumnName="Store_Contact" />
+          <ScalarProperty Name="Store_ShipTime" ColumnName="Store_ShipTime" />
+          <ScalarProperty Name="Store_ShipWay" ColumnName="Store_ShipWay" />
+          <ScalarProperty Name="Store_ShipArea" ColumnName="Store_ShipArea" />
+          <ScalarProperty Name="Store_Service" ColumnName="Store_Service" />
+          <ScalarProperty Name="Store_Memo" ColumnName="Store_Memo" />
+          <ScalarProperty Name="Store_privacy" ColumnName="Store_privacy" />
+          <ScalarProperty Name="Store_protection" ColumnName="Store_protection" />
+          <ScalarProperty Name="Store_Member" ColumnName="Store_Member" />
+          <ScalarProperty Name="Store_IVNO" ColumnName="Store_IVNO" />
+          <ScalarProperty Name="Store_Back" ColumnName="Store_Back" />
+          <ScalarProperty Name="Store_QandA" ColumnName="Store_QandA" />
+          <ScalarProperty Name="PayKind" ColumnName="PayKind" />
+          <ScalarProperty Name="FeeAmt" ColumnName="FeeAmt" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="Bens" ColumnName="Bens" />
+          <ScalarProperty Name="JoinCash" ColumnName="JoinCash" />
+          <ScalarProperty Name="RcmCash" ColumnName="RcmCash" />
+          <ScalarProperty Name="ShareCash" ColumnName="ShareCash" />
+          <ScalarProperty Name="WebType" ColumnName="WebType" />
+          <ScalarProperty Name="ConSdate" ColumnName="ConSdate" />
+          <ScalarProperty Name="ConEdate" ColumnName="ConEdate" />
+          <ScalarProperty Name="IsOWN" ColumnName="IsOWN" />
+          <ScalarProperty Name="ProductPayUseWay" ColumnName="ProductPayUseWay" />
+          <ScalarProperty Name="WebVer" ColumnName="WebVer" />
+          <ScalarProperty Name="AppPage" ColumnName="AppPage" />
+          <ScalarProperty Name="UIVer" ColumnName="UIVer" />
+          <ScalarProperty Name="CatalogVer" ColumnName="CatalogVer" />
+          <ScalarProperty Name="LBSVer" ColumnName="LBSVer" />
+          <ScalarProperty Name="NavigateFclr" ColumnName="NavigateFclr" />
+          <ScalarProperty Name="NavigateBclr" ColumnName="NavigateBclr" />
+          <ScalarProperty Name="LmenuFclr" ColumnName="LmenuFclr" />
+          <ScalarProperty Name="LmenuBclr" ColumnName="LmenuBclr" />
+          <ScalarProperty Name="BmenuFclr" ColumnName="BmenuFclr" />
+          <ScalarProperty Name="BmenuBclr" ColumnName="BmenuBclr" />
+          <ScalarProperty Name="BmenuOn" ColumnName="BmenuOn" />
+          <ScalarProperty Name="PageFclr" ColumnName="PageFclr" />
+          <ScalarProperty Name="PageBclr" ColumnName="PageBclr" />
+          <ScalarProperty Name="HeadFclr" ColumnName="HeadFclr" />
+          <ScalarProperty Name="HeadBclr" ColumnName="HeadBclr" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="AndroidURL" ColumnName="AndroidURL" />
+          <ScalarProperty Name="IOSURL" ColumnName="IOSURL" />
+          <ScalarProperty Name="AndroidIDKey" ColumnName="AndroidIDKey" />
+          <ScalarProperty Name="IOSIDKey" ColumnName="IOSIDKey" />
+          <ScalarProperty Name="IOSFile" ColumnName="IOSFile" />
+          <ScalarProperty Name="IsUseSMS" ColumnName="IsUseSMS" />
+          <ScalarProperty Name="UseSMStype" ColumnName="UseSMStype" />
+          <ScalarProperty Name="UseSMSnums" ColumnName="UseSMSnums" />
+          <ScalarProperty Name="IsUseBranch" ColumnName="IsUseBranch" />
+          <ScalarProperty Name="UseBranchNums" ColumnName="UseBranchNums" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="MetaDesc" ColumnName="MetaDesc" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="ogTitle" ColumnName="ogTitle" />
+          <ScalarProperty Name="ogDesc" ColumnName="ogDesc" />
+          <ScalarProperty Name="ogURL" ColumnName="ogURL" />
+          <ScalarProperty Name="ogIMG" ColumnName="ogIMG" />
+          <ScalarProperty Name="ogIMGpics" ColumnName="ogIMGpics" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubCompanies">
+      <EntityTypeMapping TypeName="FullonHotelModel.SubCompany">
+        <MappingFragment StoreEntitySet="SubCompany">
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_KId" ColumnName="SC_KId" />
+          <ScalarProperty Name="SC_NO" ColumnName="SC_NO" />
+          <ScalarProperty Name="SC_Name" ColumnName="SC_Name" />
+          <ScalarProperty Name="SC_NickName" ColumnName="SC_NickName" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="SC_Phone" ColumnName="SC_Phone" />
+          <ScalarProperty Name="SC_City" ColumnName="SC_City" />
+          <ScalarProperty Name="SC_County" ColumnName="SC_County" />
+          <ScalarProperty Name="SC_Address" ColumnName="SC_Address" />
+          <ScalarProperty Name="SC_Url" ColumnName="SC_Url" />
+          <ScalarProperty Name="SC_Longitude" ColumnName="SC_Longitude" />
+          <ScalarProperty Name="SC_Latitude" ColumnName="SC_Latitude" />
+          <ScalarProperty Name="SC_Date" ColumnName="SC_Date" />
+          <ScalarProperty Name="SC_IP" ColumnName="SC_IP" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubCompany_Sub">
+      <EntityTypeMapping TypeName="FullonHotelModel.SubCompany_Sub">
+        <MappingFragment StoreEntitySet="SubCompany_Sub">
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_SNO" ColumnName="SC_SNO" />
+          <ScalarProperty Name="SC_SName" ColumnName="SC_SName" />
+          <ScalarProperty Name="SC_SDate" ColumnName="SC_SDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysDatas">
+      <EntityTypeMapping TypeName="FullonHotelModel.SysData">
+        <MappingFragment StoreEntitySet="SysData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="UpDpIDs" ColumnName="UpDpIDs" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+          <ScalarProperty Name="SDate" ColumnName="SDate" />
+          <ScalarProperty Name="SysName" ColumnName="SysName" />
+          <ScalarProperty Name="SysName_Eng" ColumnName="SysName_Eng" />
+          <ScalarProperty Name="SysCode" ColumnName="SysCode" />
+          <ScalarProperty Name="SysParameter" ColumnName="SysParameter" />
+          <ScalarProperty Name="IsGlobal" ColumnName="IsGlobal" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="YearWorkHours">
+      <EntityTypeMapping TypeName="FullonHotelModel.YearWorkHour">
+        <MappingFragment StoreEntitySet="YearWorkHours">
+          <ScalarProperty Name="Awid" ColumnName="Awid" />
+          <ScalarProperty Name="IsDone" ColumnName="IsDone" />
+          <ScalarProperty Name="Awdate" ColumnName="Awdate" />
+          <ScalarProperty Name="IsHoliday" ColumnName="IsHoliday" />
+          <ScalarProperty Name="HolidayName" ColumnName="HolidayName" />
+          <ScalarProperty Name="WorkHours" ColumnName="WorkHours" />
+          <ScalarProperty Name="IsWeek" ColumnName="IsWeek" />
+          <ScalarProperty Name="Ishr09" ColumnName="Ishr09" />
+          <ScalarProperty Name="hr09Nums" ColumnName="hr09Nums" />
+          <ScalarProperty Name="hr09Chk" ColumnName="hr09Chk" />
+          <ScalarProperty Name="Ishr10" ColumnName="Ishr10" />
+          <ScalarProperty Name="hr10Nums" ColumnName="hr10Nums" />
+          <ScalarProperty Name="hr10Chk" ColumnName="hr10Chk" />
+          <ScalarProperty Name="Ishr11" ColumnName="Ishr11" />
+          <ScalarProperty Name="hr11Nums" ColumnName="hr11Nums" />
+          <ScalarProperty Name="hr11Chk" ColumnName="hr11Chk" />
+          <ScalarProperty Name="Ishr13" ColumnName="Ishr13" />
+          <ScalarProperty Name="hr13Nums" ColumnName="hr13Nums" />
+          <ScalarProperty Name="hr13Chk" ColumnName="hr13Chk" />
+          <ScalarProperty Name="Ishr14" ColumnName="Ishr14" />
+          <ScalarProperty Name="hr14Nums" ColumnName="hr14Nums" />
+          <ScalarProperty Name="hr14Chk" ColumnName="hr14Chk" />
+          <ScalarProperty Name="Ishr15" ColumnName="Ishr15" />
+          <ScalarProperty Name="hr15Nums" ColumnName="hr15Nums" />
+          <ScalarProperty Name="hr15Chk" ColumnName="hr15Chk" />
+          <ScalarProperty Name="esno" ColumnName="esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChkUploads">
+      <EntityTypeMapping TypeName="FullonHotelModel.ChkUpload">
+        <MappingFragment StoreEntitySet="ChkUpload">
+          <ScalarProperty Name="ChkID" ColumnName="ChkID" />
+          <ScalarProperty Name="GroupVer" ColumnName="GroupVer" />
+          <ScalarProperty Name="ChkType" ColumnName="ChkType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Coupon_Book">
+      <EntityTypeMapping TypeName="FullonHotelModel.Coupon_Book">
+        <MappingFragment StoreEntitySet="Coupon_Book">
+          <ScalarProperty Name="couid" ColumnName="couid" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="IsOut" ColumnName="IsOut" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="couRemarks" ColumnName="couRemarks" />
+          <ScalarProperty Name="coid" ColumnName="coid" />
+          <ScalarProperty Name="couDisNums" ColumnName="couDisNums" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invaders">
+      <EntityTypeMapping TypeName="FullonHotelModel.Invader">
+        <MappingFragment StoreEntitySet="Invader">
+          <ScalarProperty Name="Sno" ColumnName="Sno" />
+          <ScalarProperty Name="IKind" ColumnName="IKind" />
+          <ScalarProperty Name="TDate" ColumnName="TDate" />
+          <ScalarProperty Name="TKind" ColumnName="TKind" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="IPAddr" ColumnName="IPAddr" />
+          <ScalarProperty Name="IPstart" ColumnName="IPstart" />
+          <ScalarProperty Name="IPend" ColumnName="IPend" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnSales_Record">
+      <EntityTypeMapping TypeName="FullonHotelModel.OnSales_Record">
+        <MappingFragment StoreEntitySet="OnSales_Record">
+          <ScalarProperty Name="SRid" ColumnName="SRid" />
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="sapid" ColumnName="sapid" />
+          <ScalarProperty Name="SRCost" ColumnName="SRCost" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="SRDate" ColumnName="SRDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="FullonHotelModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="PDate" ColumnName="PDate" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="Pidno" ColumnName="Pidno" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="FKindNO" ColumnName="FKindNO" />
+          <ScalarProperty Name="SKindNO" ColumnName="SKindNO" />
+          <ScalarProperty Name="ItemNO" ColumnName="ItemNO" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Spec" ColumnName="Spec" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Sprice" ColumnName="Sprice" />
+          <ScalarProperty Name="SafeNum" ColumnName="SafeNum" />
+          <ScalarProperty Name="Stocks" ColumnName="Stocks" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="Pics" ColumnName="Pics" />
+          <ScalarProperty Name="PicsType" ColumnName="PicsType" />
+          <ScalarProperty Name="PicsName" ColumnName="PicsName" />
+          <ScalarProperty Name="PicsLarge" ColumnName="PicsLarge" />
+          <ScalarProperty Name="PicsLargeType" ColumnName="PicsLargeType" />
+          <ScalarProperty Name="PicsLargeName" ColumnName="PicsLargeName" />
+          <ScalarProperty Name="PicsSmall" ColumnName="PicsSmall" />
+          <ScalarProperty Name="PicsSmallType" ColumnName="PicsSmallType" />
+          <ScalarProperty Name="PicsSmallName" ColumnName="PicsSmallName" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="TotalAmt" ColumnName="TotalAmt" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Programs">
+      <EntityTypeMapping TypeName="FullonHotelModel.Program">
+        <MappingFragment StoreEntitySet="Program">
+          <ScalarProperty Name="sno" ColumnName="sno" />
+          <ScalarProperty Name="PgID" ColumnName="PgID" />
+          <ScalarProperty Name="Pename" ColumnName="Pename" />
+          <ScalarProperty Name="Pname" ColumnName="Pname" />
+          <ScalarProperty Name="IsMobile" ColumnName="IsMobile" />
+          <ScalarProperty Name="PrgFolder" ColumnName="PrgFolder" />
+          <ScalarProperty Name="Prg" ColumnName="Prg" />
+          <ScalarProperty Name="PrgType" ColumnName="PrgType" />
+          <ScalarProperty Name="Start" ColumnName="Start" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ToolBar" ColumnName="ToolBar" />
+          <ScalarProperty Name="MenuBar" ColumnName="MenuBar" />
+          <ScalarProperty Name="ScrollBars" ColumnName="ScrollBars" />
+          <ScalarProperty Name="Resizable" ColumnName="Resizable" />
+          <ScalarProperty Name="Target" ColumnName="Target" />
+          <ScalarProperty Name="WinPos" ColumnName="WinPos" />
+          <ScalarProperty Name="Pmemo" ColumnName="Pmemo" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Promote_LevelSub">
+      <EntityTypeMapping TypeName="FullonHotelModel.Promote_LevelSub">
+        <MappingFragment StoreEntitySet="Promote_LevelSub">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pmid" ColumnName="pmid" />
+          <ScalarProperty Name="MLid" ColumnName="MLid" />
+          <ScalarProperty Name="Gift" ColumnName="Gift" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubCompany_Kind">
+      <EntityTypeMapping TypeName="FullonHotelModel.SubCompany_Kind">
+        <MappingFragment StoreEntitySet="SubCompany_Kind">
+          <ScalarProperty Name="SC_KId" ColumnName="SC_KId" />
+          <ScalarProperty Name="SC_KName" ColumnName="SC_KName" />
+          <ScalarProperty Name="SC_KDate" ColumnName="SC_KDate" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChangeProduct_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.ChangeProduct_View">
+        <MappingFragment StoreEntitySet="ChangeProduct_View">
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="UseDays" ColumnName="UseDays" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="basediscount" ColumnName="basediscount" />
+          <ScalarProperty Name="IsExchange" ColumnName="IsExchange" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="DisCountAmt" ColumnName="DisCountAmt" />
+          <ScalarProperty Name="MLid" ColumnName="MLid" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="CKName" ColumnName="CKName" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.City_View">
+        <MappingFragment StoreEntitySet="City_View">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Sno" ColumnName="Sno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyDatas">
+      <EntityTypeMapping TypeName="FullonHotelModel.CompanyData">
+        <MappingFragment StoreEntitySet="CompanyData">
+          <ScalarProperty Name="cd_id" ColumnName="cd_id" />
+          <ScalarProperty Name="trydt" ColumnName="trydt" />
+          <ScalarProperty Name="tryid" ColumnName="tryid" />
+          <ScalarProperty Name="entdt" ColumnName="entdt" />
+          <ScalarProperty Name="entid" ColumnName="entid" />
+          <ScalarProperty Name="cur_id" ColumnName="cur_id" />
+          <ScalarProperty Name="brt_id" ColumnName="brt_id" />
+          <ScalarProperty Name="bra_eaddr" ColumnName="bra_eaddr" />
+          <ScalarProperty Name="bra_ename" ColumnName="bra_ename" />
+          <ScalarProperty Name="bra_shortname" ColumnName="bra_shortname" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+          <ScalarProperty Name="Tax_resp" ColumnName="Tax_resp" />
+          <ScalarProperty Name="Tax_no" ColumnName="Tax_no" />
+          <ScalarProperty Name="EDate" ColumnName="EDate" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="BFax" ColumnName="BFax" />
+          <ScalarProperty Name="BTel" ColumnName="BTel" />
+          <ScalarProperty Name="BAddr" ColumnName="BAddr" />
+          <ScalarProperty Name="BCity" ColumnName="BCity" />
+          <ScalarProperty Name="BCode" ColumnName="BCode" />
+          <ScalarProperty Name="BKind" ColumnName="BKind" />
+          <ScalarProperty Name="ODate" ColumnName="ODate" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="NOTE" ColumnName="NOTE" />
+          <ScalarProperty Name="cd_nickname" ColumnName="cd_nickname" />
+          <ScalarProperty Name="cd_name" ColumnName="cd_name" />
+          <ScalarProperty Name="BNO" ColumnName="BNO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coupon_LevelSub_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.coupon_LevelSub_View">
+        <MappingFragment StoreEntitySet="coupon_LevelSub_View">
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="MLid" ColumnName="MLid" />
+          <ScalarProperty Name="DisCountAmt" ColumnName="DisCountAmt" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coupon_sub_view">
+      <EntityTypeMapping TypeName="FullonHotelModel.coupon_sub_view">
+        <MappingFragment StoreEntitySet="coupon_sub_view">
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+          <ScalarProperty Name="qcbPoints" ColumnName="qcbPoints" />
+          <ScalarProperty Name="getPoints" ColumnName="getPoints" />
+          <ScalarProperty Name="CKName" ColumnName="CKName" />
+          <ScalarProperty Name="getKind" ColumnName="getKind" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="PayPoint" ColumnName="PayPoint" />
+          <ScalarProperty Name="basediscount" ColumnName="basediscount" />
+          <ScalarProperty Name="IsBirthGift" ColumnName="IsBirthGift" />
+          <ScalarProperty Name="IsExchange" ColumnName="IsExchange" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="IVNO" ColumnName="IVNO" />
+          <ScalarProperty Name="LimitDate" ColumnName="LimitDate" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="PosNumber" ColumnName="PosNumber" />
+          <ScalarProperty Name="DisCountAmt" ColumnName="DisCountAmt" />
+          <ScalarProperty Name="SystemType" ColumnName="SystemType" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="TDate" ColumnName="TDate" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+          <ScalarProperty Name="Ccode" ColumnName="Ccode" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="IsGet" ColumnName="IsGet" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DPosts">
+      <EntityTypeMapping TypeName="FullonHotelModel.DPost">
+        <MappingFragment StoreEntitySet="DPost">
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="esno" ColumnName="esno" />
+          <ScalarProperty Name="dpMemo" ColumnName="dpMemo" />
+          <ScalarProperty Name="dpEDate" ColumnName="dpEDate" />
+          <ScalarProperty Name="dpSDate" ColumnName="dpSDate" />
+          <ScalarProperty Name="dpDID" ColumnName="dpDID" />
+          <ScalarProperty Name="dpEsno" ColumnName="dpEsno" />
+          <ScalarProperty Name="dpDate" ColumnName="dpDate" />
+          <ScalarProperty Name="dpid" ColumnName="dpid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DPost_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.DPost_View">
+        <MappingFragment StoreEntitySet="DPost_View">
+          <ScalarProperty Name="DArea" ColumnName="DArea" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="BNO" ColumnName="BNO" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="esno" ColumnName="esno" />
+          <ScalarProperty Name="dpMemo" ColumnName="dpMemo" />
+          <ScalarProperty Name="dpEDate" ColumnName="dpEDate" />
+          <ScalarProperty Name="dpSDate" ColumnName="dpSDate" />
+          <ScalarProperty Name="DName2" ColumnName="DName2" />
+          <ScalarProperty Name="dpDID" ColumnName="dpDID" />
+          <ScalarProperty Name="emlyNO" ColumnName="emlyNO" />
+          <ScalarProperty Name="PostTitle" ColumnName="PostTitle" />
+          <ScalarProperty Name="DName1" ColumnName="DName1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="dpEsno" ColumnName="dpEsno" />
+          <ScalarProperty Name="dpDate" ColumnName="dpDate" />
+          <ScalarProperty Name="dpid" ColumnName="dpid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HiCash_Book">
+      <EntityTypeMapping TypeName="FullonHotelModel.HiCash_Book">
+        <MappingFragment StoreEntitySet="HiCash_Book">
+          <ScalarProperty Name="quid" ColumnName="quid" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+          <ScalarProperty Name="hcbDate" ColumnName="hcbDate" />
+          <ScalarProperty Name="bonban_latest" ColumnName="bonban_latest" />
+          <ScalarProperty Name="hcbRemarks" ColumnName="hcbRemarks" />
+          <ScalarProperty Name="hcbStatus" ColumnName="hcbStatus" />
+          <ScalarProperty Name="hcbBalance" ColumnName="hcbBalance" />
+          <ScalarProperty Name="hcbIn" ColumnName="hcbIn" />
+          <ScalarProperty Name="hcbUse" ColumnName="hcbUse" />
+          <ScalarProperty Name="hcid" ColumnName="hcid" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="hcbid" ColumnName="hcbid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebSMS_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.mebSMS_View">
+        <MappingFragment StoreEntitySet="mebSMS_View">
+          <ScalarProperty Name="mpKind" ColumnName="mpKind" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="mpPhoneType" ColumnName="mpPhoneType" />
+          <ScalarProperty Name="mpid" ColumnName="mpid" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="IsMail" ColumnName="IsMail" />
+          <ScalarProperty Name="mpStoreID" ColumnName="mpStoreID" />
+          <ScalarProperty Name="mpIMEI" ColumnName="mpIMEI" />
+          <ScalarProperty Name="mpMobile" ColumnName="mpMobile" />
+          <ScalarProperty Name="mpOS" ColumnName="mpOS" />
+          <ScalarProperty Name="mpDeviceID" ColumnName="mpDeviceID" />
+          <ScalarProperty Name="mpdate" ColumnName="mpdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MemberPh_ViewStore">
+      <EntityTypeMapping TypeName="FullonHotelModel.MemberPh_ViewStore">
+        <MappingFragment StoreEntitySet="MemberPh_ViewStore">
+          <ScalarProperty Name="AppVers" ColumnName="AppVers" />
+          <ScalarProperty Name="mpPhoneSize" ColumnName="mpPhoneSize" />
+          <ScalarProperty Name="Vers" ColumnName="Vers" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="mpKind" ColumnName="mpKind" />
+          <ScalarProperty Name="IOSFile" ColumnName="IOSFile" />
+          <ScalarProperty Name="IOSIDKey" ColumnName="IOSIDKey" />
+          <ScalarProperty Name="AndroidIDKey" ColumnName="AndroidIDKey" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="Store_Name" ColumnName="Store_Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Fax1" ColumnName="Fax1" />
+          <ScalarProperty Name="Tel1" ColumnName="Tel1" />
+          <ScalarProperty Name="Addr" ColumnName="Addr" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Zip_sub" ColumnName="Zip_sub" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="S_Com" ColumnName="S_Com" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="mpDeviceID" ColumnName="mpDeviceID" />
+          <ScalarProperty Name="mpOS" ColumnName="mpOS" />
+          <ScalarProperty Name="mpPhoneType" ColumnName="mpPhoneType" />
+          <ScalarProperty Name="mpMobile" ColumnName="mpMobile" />
+          <ScalarProperty Name="mpIMEI" ColumnName="mpIMEI" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="mpStoreID" ColumnName="mpStoreID" />
+          <ScalarProperty Name="mpdate" ColumnName="mpdate" />
+          <ScalarProperty Name="mpid" ColumnName="mpid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnSales_Pidno_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.OnSales_Pidno_View">
+        <MappingFragment StoreEntitySet="OnSales_Pidno_View">
+          <ScalarProperty Name="qcbPoints" ColumnName="qcbPoints" />
+          <ScalarProperty Name="UseDays" ColumnName="UseDays" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="CKName" ColumnName="CKName" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="sapMemo" ColumnName="sapMemo" />
+          <ScalarProperty Name="sapPrice" ColumnName="sapPrice" />
+          <ScalarProperty Name="sapBuyQty" ColumnName="sapBuyQty" />
+          <ScalarProperty Name="sapQty" ColumnName="sapQty" />
+          <ScalarProperty Name="sapRate" ColumnName="sapRate" />
+          <ScalarProperty Name="sapPidno" ColumnName="sapPidno" />
+          <ScalarProperty Name="sapSNO" ColumnName="sapSNO" />
+          <ScalarProperty Name="sapDate" ColumnName="sapDate" />
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="sapid" ColumnName="sapid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnSales_Rate_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.OnSales_Rate_View">
+        <MappingFragment StoreEntitySet="OnSales_Rate_View">
+          <ScalarProperty Name="CKName" ColumnName="CKName" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="sapPidno" ColumnName="sapPidno" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="sapPrice" ColumnName="sapPrice" />
+          <ScalarProperty Name="sapRate" ColumnName="sapRate" />
+          <ScalarProperty Name="sapPrice_id" ColumnName="sapPrice_id" />
+          <ScalarProperty Name="sapSNO" ColumnName="sapSNO" />
+          <ScalarProperty Name="sarUDate" ColumnName="sarUDate" />
+          <ScalarProperty Name="sarEsno" ColumnName="sarEsno" />
+          <ScalarProperty Name="sarADate" ColumnName="sarADate" />
+          <ScalarProperty Name="sarApplyID" ColumnName="sarApplyID" />
+          <ScalarProperty Name="sarMidno" ColumnName="sarMidno" />
+          <ScalarProperty Name="sarRate" ColumnName="sarRate" />
+          <ScalarProperty Name="sarSNO" ColumnName="sarSNO" />
+          <ScalarProperty Name="sarDate" ColumnName="sarDate" />
+          <ScalarProperty Name="sapid" ColumnName="sapid" />
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="sarid" ColumnName="sarid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnSales_Record_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.OnSales_Record_View">
+        <MappingFragment StoreEntitySet="OnSales_Record_View">
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="sapid" ColumnName="sapid" />
+          <ScalarProperty Name="saName" ColumnName="saName" />
+          <ScalarProperty Name="SRDate" ColumnName="SRDate" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="SRCost" ColumnName="SRCost" />
+          <ScalarProperty Name="said" ColumnName="said" />
+          <ScalarProperty Name="SRid" ColumnName="SRid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Promote_LevelSub_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.Promote_LevelSub_View">
+        <MappingFragment StoreEntitySet="Promote_LevelSub_View">
+          <ScalarProperty Name="basediscount" ColumnName="basediscount" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+          <ScalarProperty Name="UseDays" ColumnName="UseDays" />
+          <ScalarProperty Name="CupSubject" ColumnName="CupSubject" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Gift" ColumnName="Gift" />
+          <ScalarProperty Name="MLid" ColumnName="MLid" />
+          <ScalarProperty Name="pmid" ColumnName="pmid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rights_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.Rights_View">
+        <MappingFragment StoreEntitySet="Rights_View">
+          <ScalarProperty Name="Pmemo" ColumnName="Pmemo" />
+          <ScalarProperty Name="WinPos" ColumnName="WinPos" />
+          <ScalarProperty Name="Target" ColumnName="Target" />
+          <ScalarProperty Name="Resizable" ColumnName="Resizable" />
+          <ScalarProperty Name="ScrollBars" ColumnName="ScrollBars" />
+          <ScalarProperty Name="MenuBar" ColumnName="MenuBar" />
+          <ScalarProperty Name="ToolBar" ColumnName="ToolBar" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Start" ColumnName="Start" />
+          <ScalarProperty Name="PrgType" ColumnName="PrgType" />
+          <ScalarProperty Name="Prg" ColumnName="Prg" />
+          <ScalarProperty Name="PrgFolder" ColumnName="PrgFolder" />
+          <ScalarProperty Name="IsMobile" ColumnName="IsMobile" />
+          <ScalarProperty Name="Pname" ColumnName="Pname" />
+          <ScalarProperty Name="Pename" ColumnName="Pename" />
+          <ScalarProperty Name="sno" ColumnName="sno" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="IsChk" ColumnName="IsChk" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="IsQry" ColumnName="IsQry" />
+          <ScalarProperty Name="IsMod" ColumnName="IsMod" />
+          <ScalarProperty Name="IsAdd" ColumnName="IsAdd" />
+          <ScalarProperty Name="PgID" ColumnName="PgID" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule_Main_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.Schedule_Main_View">
+        <MappingFragment StoreEntitySet="Schedule_Main_View">
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="Email2" ColumnName="Email2" />
+          <ScalarProperty Name="Email1" ColumnName="Email1" />
+          <ScalarProperty Name="SendMailTime" ColumnName="SendMailTime" />
+          <ScalarProperty Name="IsMail" ColumnName="IsMail" />
+          <ScalarProperty Name="ArlTime" ColumnName="ArlTime" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="CircleID" ColumnName="CircleID" />
+          <ScalarProperty Name="Chairman" ColumnName="Chairman" />
+          <ScalarProperty Name="MemberName" ColumnName="MemberName" />
+          <ScalarProperty Name="Allday" ColumnName="Allday" />
+          <ScalarProperty Name="EndMin" ColumnName="EndMin" />
+          <ScalarProperty Name="EndHour" ColumnName="EndHour" />
+          <ScalarProperty Name="BeginMin" ColumnName="BeginMin" />
+          <ScalarProperty Name="BeginHour" ColumnName="BeginHour" />
+          <ScalarProperty Name="SDate" ColumnName="SDate" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="DName" ColumnName="DName" />
+          <ScalarProperty Name="BNO" ColumnName="BNO" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SKind_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.SKind_View">
+        <MappingFragment StoreEntitySet="SKind_View">
+          <ScalarProperty Name="En_Fkind" ColumnName="En_Fkind" />
+          <ScalarProperty Name="Fkind" ColumnName="Fkind" />
+          <ScalarProperty Name="FSortNO" ColumnName="FSortNO" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="En_Skind" ColumnName="En_Skind" />
+          <ScalarProperty Name="Skind" ColumnName="Skind" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+          <ScalarProperty Name="SKdate" ColumnName="SKdate" />
+          <ScalarProperty Name="SkindNO" ColumnName="SkindNO" />
+          <ScalarProperty Name="FkindNo" ColumnName="FkindNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubCompany_Sub_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.SubCompany_Sub_View">
+        <MappingFragment StoreEntitySet="SubCompany_Sub_View">
+          <ScalarProperty Name="SC_NickName" ColumnName="SC_NickName" />
+          <ScalarProperty Name="SC_SNO" ColumnName="SC_SNO" />
+          <ScalarProperty Name="SC_County" ColumnName="SC_County" />
+          <ScalarProperty Name="SC_City" ColumnName="SC_City" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="SC_Name" ColumnName="SC_Name" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="SC_SDate" ColumnName="SC_SDate" />
+          <ScalarProperty Name="SC_SName" ColumnName="SC_SName" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubCompany_V">
+      <EntityTypeMapping TypeName="FullonHotelModel.SubCompany_V">
+        <MappingFragment StoreEntitySet="SubCompany_V">
+          <ScalarProperty Name="SC_NickName" ColumnName="SC_NickName" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="SC_Date" ColumnName="SC_Date" />
+          <ScalarProperty Name="SC_Latitude" ColumnName="SC_Latitude" />
+          <ScalarProperty Name="SC_Longitude" ColumnName="SC_Longitude" />
+          <ScalarProperty Name="SC_Url" ColumnName="SC_Url" />
+          <ScalarProperty Name="SC_Address" ColumnName="SC_Address" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="SC_County" ColumnName="SC_County" />
+          <ScalarProperty Name="SC_City" ColumnName="SC_City" />
+          <ScalarProperty Name="SC_Phone" ColumnName="SC_Phone" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="SC_Name" ColumnName="SC_Name" />
+          <ScalarProperty Name="SC_KId" ColumnName="SC_KId" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubCompany_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.SubCompany_View">
+        <MappingFragment StoreEntitySet="SubCompany_View">
+          <ScalarProperty Name="SC_Phone" ColumnName="SC_Phone" />
+          <ScalarProperty Name="SC_NickName" ColumnName="SC_NickName" />
+          <ScalarProperty Name="SC_NO" ColumnName="SC_NO" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="SC_KName" ColumnName="SC_KName" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="SC_Date" ColumnName="SC_Date" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="SC_County" ColumnName="SC_County" />
+          <ScalarProperty Name="SC_City" ColumnName="SC_City" />
+          <ScalarProperty Name="SC_Url" ColumnName="SC_Url" />
+          <ScalarProperty Name="SC_Latitude" ColumnName="SC_Latitude" />
+          <ScalarProperty Name="SC_Longitude" ColumnName="SC_Longitude" />
+          <ScalarProperty Name="SC_Address" ColumnName="SC_Address" />
+          <ScalarProperty Name="SC_Name" ColumnName="SC_Name" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="SC_KId" ColumnName="SC_KId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdBanner_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.AdBanner_View">
+        <MappingFragment StoreEntitySet="AdBanner_View">
+          <ScalarProperty Name="BL_Name" ColumnName="BL_Name" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsWebOn" ColumnName="IsWebOn" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="ScID" ColumnName="ScID" />
+          <ScalarProperty Name="Sidno" ColumnName="Sidno" />
+          <ScalarProperty Name="NwID" ColumnName="NwID" />
+          <ScalarProperty Name="PicsName" ColumnName="PicsName" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="BL_ID" ColumnName="BL_ID" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="ADate" ColumnName="ADate" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="AdID" ColumnName="AdID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coupon_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.coupon_View">
+        <MappingFragment StoreEntitySet="coupon_View">
+          <ScalarProperty Name="Isflag" ColumnName="Isflag" />
+          <ScalarProperty Name="qcbPoints" ColumnName="qcbPoints" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsBirthGift" ColumnName="IsBirthGift" />
+          <ScalarProperty Name="IsExchange" ColumnName="IsExchange" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="PosNumber" ColumnName="PosNumber" />
+          <ScalarProperty Name="SystemType" ColumnName="SystemType" />
+          <ScalarProperty Name="CKName" ColumnName="CKName" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="DisCountWay" ColumnName="DisCountWay" />
+          <ScalarProperty Name="basediscount" ColumnName="basediscount" />
+          <ScalarProperty Name="isloop" ColumnName="isloop" />
+          <ScalarProperty Name="basemoney" ColumnName="basemoney" />
+          <ScalarProperty Name="Minmoney" ColumnName="Minmoney" />
+          <ScalarProperty Name="DisCountAmt" ColumnName="DisCountAmt" />
+          <ScalarProperty Name="Price_id" ColumnName="Price_id" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="IsMake" ColumnName="IsMake" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Depart_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.Depart_View">
+        <MappingFragment StoreEntitySet="Depart_View">
+          <ScalarProperty Name="IsCashBox" ColumnName="IsCashBox" />
+          <ScalarProperty Name="IsStocks" ColumnName="IsStocks" />
+          <ScalarProperty Name="IsPrtIVok" ColumnName="IsPrtIVok" />
+          <ScalarProperty Name="IsChIV" ColumnName="IsChIV" />
+          <ScalarProperty Name="IVtype" ColumnName="IVtype" />
+          <ScalarProperty Name="IsIV" ColumnName="IsIV" />
+          <ScalarProperty Name="Addr2" ColumnName="Addr2" />
+          <ScalarProperty Name="Addr" ColumnName="Addr" />
+          <ScalarProperty Name="TEL" ColumnName="TEL" />
+          <ScalarProperty Name="TaxNO" ColumnName="TaxNO" />
+          <ScalarProperty Name="IVNO" ColumnName="IVNO" />
+          <ScalarProperty Name="Company2" ColumnName="Company2" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="IsUnCheck" ColumnName="IsUnCheck" />
+          <ScalarProperty Name="org_id" ColumnName="org_id" />
+          <ScalarProperty Name="IsAgt" ColumnName="IsAgt" />
+          <ScalarProperty Name="IsTop" ColumnName="IsTop" />
+          <ScalarProperty Name="IsChose" ColumnName="IsChose" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+          <ScalarProperty Name="Edate" ColumnName="Edate" />
+          <ScalarProperty Name="eSNO2" ColumnName="eSNO2" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="BNOs" ColumnName="BNOs" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="DKind" ColumnName="DKind" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="IsSum" ColumnName="IsSum" />
+          <ScalarProperty Name="IsOnLine" ColumnName="IsOnLine" />
+          <ScalarProperty Name="eSNO" ColumnName="eSNO" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SNO" ColumnName="SNO" />
+          <ScalarProperty Name="DDate" ColumnName="DDate" />
+          <ScalarProperty Name="DpID" ColumnName="DpID" />
+          <ScalarProperty Name="scd_nickname" ColumnName="scd_nickname" />
+          <ScalarProperty Name="sdid" ColumnName="sdid" />
+          <ScalarProperty Name="cd_nickname" ColumnName="cd_nickname" />
+          <ScalarProperty Name="scd_cdid" ColumnName="scd_cdid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee_Detail">
+      <EntityTypeMapping TypeName="FullonHotelModel.Employee_Detail">
+        <MappingFragment StoreEntitySet="Employee_Detail">
+          <ScalarProperty Name="AuthCodeLimit" ColumnName="AuthCodeLimit" />
+          <ScalarProperty Name="AuthCode" ColumnName="AuthCode" />
+          <ScalarProperty Name="IsMeetingAdmin" ColumnName="IsMeetingAdmin" />
+          <ScalarProperty Name="IsAgt" ColumnName="IsAgt" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+          <ScalarProperty Name="DeSNO2" ColumnName="DeSNO2" />
+          <ScalarProperty Name="DeSNO" ColumnName="DeSNO" />
+          <ScalarProperty Name="IsFWork" ColumnName="IsFWork" />
+          <ScalarProperty Name="SysUse" ColumnName="SysUse" />
+          <ScalarProperty Name="IsOvertime" ColumnName="IsOvertime" />
+          <ScalarProperty Name="IsSMS" ColumnName="IsSMS" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="nflDate" ColumnName="nflDate" />
+          <ScalarProperty Name="dflDate" ColumnName="dflDate" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="chgEsno" ColumnName="chgEsno" />
+          <ScalarProperty Name="MailCounts" ColumnName="MailCounts" />
+          <ScalarProperty Name="mailCC" ColumnName="mailCC" />
+          <ScalarProperty Name="JustView" ColumnName="JustView" />
+          <ScalarProperty Name="OneMailCounts" ColumnName="OneMailCounts" />
+          <ScalarProperty Name="IsUse" ColumnName="IsUse" />
+          <ScalarProperty Name="IsMailOut" ColumnName="IsMailOut" />
+          <ScalarProperty Name="IsMailIn" ColumnName="IsMailIn" />
+          <ScalarProperty Name="mailquota" ColumnName="mailquota" />
+          <ScalarProperty Name="group_property" ColumnName="group_property" />
+          <ScalarProperty Name="attr" ColumnName="attr" />
+          <ScalarProperty Name="sign_id" ColumnName="sign_id" />
+          <ScalarProperty Name="treetype" ColumnName="treetype" />
+          <ScalarProperty Name="font" ColumnName="font" />
+          <ScalarProperty Name="IdnoPicsType2" ColumnName="IdnoPicsType2" />
+          <ScalarProperty Name="IdnoPicsType1" ColumnName="IdnoPicsType1" />
+          <ScalarProperty Name="IsIdnoPics" ColumnName="IsIdnoPics" />
+          <ScalarProperty Name="PicsType" ColumnName="PicsType" />
+          <ScalarProperty Name="IsPics" ColumnName="IsPics" />
+          <ScalarProperty Name="LogErrsDate" ColumnName="LogErrsDate" />
+          <ScalarProperty Name="LogErrs" ColumnName="LogErrs" />
+          <ScalarProperty Name="PdChgDate" ColumnName="PdChgDate" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="IsUpDate" ColumnName="IsUpDate" />
+          <ScalarProperty Name="IsConfirm" ColumnName="IsConfirm" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="EnterDate" ColumnName="EnterDate" />
+          <ScalarProperty Name="HealthDate" ColumnName="HealthDate" />
+          <ScalarProperty Name="PayWay" ColumnName="PayWay" />
+          <ScalarProperty Name="IsExtra" ColumnName="IsExtra" />
+          <ScalarProperty Name="IsNonLeave" ColumnName="IsNonLeave" />
+          <ScalarProperty Name="TaxRate" ColumnName="TaxRate" />
+          <ScalarProperty Name="TaxNums" ColumnName="TaxNums" />
+          <ScalarProperty Name="MaimedRate" ColumnName="MaimedRate" />
+          <ScalarProperty Name="RaiseNums" ColumnName="RaiseNums" />
+          <ScalarProperty Name="TaxWay" ColumnName="TaxWay" />
+          <ScalarProperty Name="BankNO" ColumnName="BankNO" />
+          <ScalarProperty Name="BankBrand" ColumnName="BankBrand" />
+          <ScalarProperty Name="Bank" ColumnName="Bank" />
+          <ScalarProperty Name="LaborNums" ColumnName="LaborNums" />
+          <ScalarProperty Name="HealthNums" ColumnName="HealthNums" />
+          <ScalarProperty Name="LaborNO" ColumnName="LaborNO" />
+          <ScalarProperty Name="HealthNO" ColumnName="HealthNO" />
+          <ScalarProperty Name="SpecDays" ColumnName="SpecDays" />
+          <ScalarProperty Name="WorkNums" ColumnName="WorkNums" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="SalarID" ColumnName="SalarID" />
+          <ScalarProperty Name="CardNo" ColumnName="CardNo" />
+          <ScalarProperty Name="IsForeign" ColumnName="IsForeign" />
+          <ScalarProperty Name="IsSalary" ColumnName="IsSalary" />
+          <ScalarProperty Name="IsPinHole" ColumnName="IsPinHole" />
+          <ScalarProperty Name="IsPartTime" ColumnName="IsPartTime" />
+          <ScalarProperty Name="Ememo" ColumnName="Ememo" />
+          <ScalarProperty Name="CAddr" ColumnName="CAddr" />
+          <ScalarProperty Name="CCounty" ColumnName="CCounty" />
+          <ScalarProperty Name="CZip_sub" ColumnName="CZip_sub" />
+          <ScalarProperty Name="CZip" ColumnName="CZip" />
+          <ScalarProperty Name="Addr" ColumnName="Addr" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Zip_sub" ColumnName="Zip_sub" />
+          <ScalarProperty Name="ZIP" ColumnName="ZIP" />
+          <ScalarProperty Name="Email2" ColumnName="Email2" />
+          <ScalarProperty Name="Email1" ColumnName="Email1" />
+          <ScalarProperty Name="Tel2" ColumnName="Tel2" />
+          <ScalarProperty Name="TelArea2" ColumnName="TelArea2" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Tel1Ext" ColumnName="Tel1Ext" />
+          <ScalarProperty Name="Tel1" ColumnName="Tel1" />
+          <ScalarProperty Name="TelArea1" ColumnName="TelArea1" />
+          <ScalarProperty Name="InsureKind" ColumnName="InsureKind" />
+          <ScalarProperty Name="RetireDate" ColumnName="RetireDate" />
+          <ScalarProperty Name="PretireDate" ColumnName="PretireDate" />
+          <ScalarProperty Name="Lcause" ColumnName="Lcause" />
+          <ScalarProperty Name="Ldate" ColumnName="Ldate" />
+          <ScalarProperty Name="TrialDate" ColumnName="TrialDate" />
+          <ScalarProperty Name="Adate" ColumnName="Adate" />
+          <ScalarProperty Name="Marry" ColumnName="Marry" />
+          <ScalarProperty Name="Skill" ColumnName="Skill" />
+          <ScalarProperty Name="Major" ColumnName="Major" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+          <ScalarProperty Name="IDNO" ColumnName="IDNO" />
+          <ScalarProperty Name="Birth" ColumnName="Birth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="ELevelNum" ColumnName="ELevelNum" />
+          <ScalarProperty Name="LevelNo" ColumnName="LevelNo" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="PostTitle" ColumnName="PostTitle" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="IsSM" ColumnName="IsSM" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="BNO" ColumnName="BNO" />
+          <ScalarProperty Name="En_Name" ColumnName="En_Name" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="emlyNO" ColumnName="emlyNO" />
+          <ScalarProperty Name="IsEflow" ColumnName="IsEflow" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="IsMod" ColumnName="IsMod" />
+          <ScalarProperty Name="PrvEsno" ColumnName="PrvEsno" />
+          <ScalarProperty Name="IsPrv" ColumnName="IsPrv" />
+          <ScalarProperty Name="esno" ColumnName="esno" />
+          <ScalarProperty Name="EDate" ColumnName="EDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BeSNO" ColumnName="BeSNO" />
+          <ScalarProperty Name="S_Com" ColumnName="S_Com" />
+          <ScalarProperty Name="DpID" ColumnName="DpID" />
+          <ScalarProperty Name="DArea" ColumnName="DArea" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="DName" ColumnName="DName" />
+          <ScalarProperty Name="BCity" ColumnName="BCity" />
+          <ScalarProperty Name="BKind" ColumnName="BKind" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MemberSMS_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.MemberSMS_View">
+        <MappingFragment StoreEntitySet="MemberSMS_View">
+          <ScalarProperty Name="WUrl" ColumnName="WUrl" />
+          <ScalarProperty Name="SubSubject" ColumnName="SubSubject" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="frmType" ColumnName="frmType" />
+          <ScalarProperty Name="bcid" ColumnName="bcid" />
+          <ScalarProperty Name="sbid" ColumnName="sbid" />
+          <ScalarProperty Name="msID" ColumnName="msID" />
+          <ScalarProperty Name="Store_Name" ColumnName="Store_Name" />
+          <ScalarProperty Name="S_Com" ColumnName="S_Com" />
+          <ScalarProperty Name="SendDate" ColumnName="SendDate" />
+          <ScalarProperty Name="SendNums" ColumnName="SendNums" />
+          <ScalarProperty Name="SMSmidno" ColumnName="SMSmidno" />
+          <ScalarProperty Name="SMSisMeb" ColumnName="SMSisMeb" />
+          <ScalarProperty Name="SMSid" ColumnName="SMSid" />
+          <ScalarProperty Name="SMSkind" ColumnName="SMSkind" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="TitleName" ColumnName="TitleName" />
+          <ScalarProperty Name="LPics" ColumnName="LPics" />
+          <ScalarProperty Name="SPics" ColumnName="SPics" />
+          <ScalarProperty Name="PushType" ColumnName="PushType" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.News_View">
+        <MappingFragment StoreEntitySet="News_View">
+          <ScalarProperty Name="Sidno" ColumnName="Sidno" />
+          <ScalarProperty Name="ogIMG" ColumnName="ogIMG" />
+          <ScalarProperty Name="ogURL" ColumnName="ogURL" />
+          <ScalarProperty Name="ogDesc" ColumnName="ogDesc" />
+          <ScalarProperty Name="ogTitle" ColumnName="ogTitle" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDesc" ColumnName="MetaDesc" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="Place" ColumnName="Place" />
+          <ScalarProperty Name="YearNews" ColumnName="YearNews" />
+          <ScalarProperty Name="WebTag" ColumnName="WebTag" />
+          <ScalarProperty Name="ViewCount" ColumnName="ViewCount" />
+          <ScalarProperty Name="PostedOriginUrl" ColumnName="PostedOriginUrl" />
+          <ScalarProperty Name="PostedOrigin" ColumnName="PostedOrigin" />
+          <ScalarProperty Name="toURL" ColumnName="toURL" />
+          <ScalarProperty Name="frmURL" ColumnName="frmURL" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="PicsType" ColumnName="PicsType" />
+          <ScalarProperty Name="Vers" ColumnName="Vers" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="HitNums" ColumnName="HitNums" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="SortNO" ColumnName="SortNO" />
+          <ScalarProperty Name="IsBanner" ColumnName="IsBanner" />
+          <ScalarProperty Name="IsTop" ColumnName="IsTop" />
+          <ScalarProperty Name="IsOnLine" ColumnName="IsOnLine" />
+          <ScalarProperty Name="GrpName" ColumnName="GrpName" />
+          <ScalarProperty Name="GrpKind" ColumnName="GrpKind" />
+          <ScalarProperty Name="GrpSortNO" ColumnName="GrpSortNO" />
+          <ScalarProperty Name="Grp_ID" ColumnName="Grp_ID" />
+          <ScalarProperty Name="NDate" ColumnName="NDate" />
+          <ScalarProperty Name="NwID" ColumnName="NwID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.Product_View">
+        <MappingFragment StoreEntitySet="Product_View">
+          <ScalarProperty Name="PicName" ColumnName="PicName" />
+          <ScalarProperty Name="Sprice" ColumnName="Sprice" />
+          <ScalarProperty Name="Fkind" ColumnName="Fkind" />
+          <ScalarProperty Name="TotalAmt" ColumnName="TotalAmt" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="Esno" ColumnName="Esno" />
+          <ScalarProperty Name="PicsSmallName" ColumnName="PicsSmallName" />
+          <ScalarProperty Name="PicsSmallType" ColumnName="PicsSmallType" />
+          <ScalarProperty Name="PicsSmall" ColumnName="PicsSmall" />
+          <ScalarProperty Name="PicsLargeName" ColumnName="PicsLargeName" />
+          <ScalarProperty Name="PicsLarge" ColumnName="PicsLarge" />
+          <ScalarProperty Name="PicsLargeType" ColumnName="PicsLargeType" />
+          <ScalarProperty Name="PicsName" ColumnName="PicsName" />
+          <ScalarProperty Name="PicsType" ColumnName="PicsType" />
+          <ScalarProperty Name="Pics" ColumnName="Pics" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="Stocks" ColumnName="Stocks" />
+          <ScalarProperty Name="SafeNum" ColumnName="SafeNum" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Spec" ColumnName="Spec" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ItemNO" ColumnName="ItemNO" />
+          <ScalarProperty Name="SKindNO" ColumnName="SKindNO" />
+          <ScalarProperty Name="FKindNO" ColumnName="FKindNO" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="Pidno" ColumnName="Pidno" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="PDate" ColumnName="PDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpecOrderInfo_View">
+      <EntityTypeMapping TypeName="FullonHotelModel.SpecOrderInfo_View">
+        <MappingFragment StoreEntitySet="SpecOrderInfo_View">
+          <ScalarProperty Name="SC_SName" ColumnName="SC_SName" />
+          <ScalarProperty Name="SC_Name" ColumnName="SC_Name" />
+          <ScalarProperty Name="SC_SId" ColumnName="SC_SId" />
+          <ScalarProperty Name="SC_Id" ColumnName="SC_Id" />
+          <ScalarProperty Name="TDate" ColumnName="TDate" />
+          <ScalarProperty Name="IsGet" ColumnName="IsGet" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+          <ScalarProperty Name="Ccode" ColumnName="Ccode" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="CSId" ColumnName="CSId" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CountBens" ColumnName="CountBens" />
+          <ScalarProperty Name="UseBens" ColumnName="UseBens" />
+          <ScalarProperty Name="UDate" ColumnName="UDate" />
+          <ScalarProperty Name="esno" ColumnName="esno" />
+          <ScalarProperty Name="SSex" ColumnName="SSex" />
+          <ScalarProperty Name="SEmail" ColumnName="SEmail" />
+          <ScalarProperty Name="SMobile" ColumnName="SMobile" />
+          <ScalarProperty Name="STel" ColumnName="STel" />
+          <ScalarProperty Name="STelArea" ColumnName="STelArea" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="SAddr" ColumnName="SAddr" />
+          <ScalarProperty Name="SCounty" ColumnName="SCounty" />
+          <ScalarProperty Name="SZip_sub" ColumnName="SZip_sub" />
+          <ScalarProperty Name="SZip" ColumnName="SZip" />
+          <ScalarProperty Name="IsMod" ColumnName="IsMod" />
+          <ScalarProperty Name="IsEnd" ColumnName="IsEnd" />
+          <ScalarProperty Name="ReMemo" ColumnName="ReMemo" />
+          <ScalarProperty Name="ReMark" ColumnName="ReMark" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="DiscountCash" ColumnName="DiscountCash" />
+          <ScalarProperty Name="Currency_No" ColumnName="Currency_No" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Midno" ColumnName="Midno" />
+          <ScalarProperty Name="PayDate" ColumnName="PayDate" />
+          <ScalarProperty Name="IsSales" ColumnName="IsSales" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="OrderSource" ColumnName="OrderSource" />
+          <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="Adate" ColumnName="Adate" />
+          <ScalarProperty Name="SNO" ColumnName="SNO" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="ApplyID" ColumnName="ApplyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

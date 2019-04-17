@@ -1,0 +1,53 @@
+﻿@model List<store.Models.Member>
+@{
+    ViewBag.Title = "Memb";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+@using (Html.BeginForm("Serach", "Memb"))
+{
+    @Html.TextBox("Midno_Q", null, new { @class = "btn-info" })
+    <input type="submit" value="搜尋" class="btn btn-default" />
+}
+
+    
+    
+<h2>Memb</h2>
+
+
+
+@*編輯器*@
+<div>
+    @using (Html.BeginForm("", "", FormMethod.Post, new { name = "myForm" }))
+    {
+
+
+        <!--textarea加上class="ckeditor"並給一個name="myText"-->
+        @Html.TextArea("myText", new { @class = "ckeditor" })
+        <input type="button" value="click button" />
+    }
+</div>
+
+
+<!--引用ckeditor.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="~/Content/ckeditor/ckeditor.js"></script>
+<!--加入圖片上傳頁籤，放在</body>前面，若放在網頁head區段的話，會抓不到textarea DOM-->
+<script type="text/javascript">
+$(function () {
+            $("input:button").click(function () {
+                for (let key in CKEDITOR.instances)
+                {
+                    CKEDITOR.instances[key].updateElement();//把編輯器內容填回textarea
+                }//end for in
+                $.ajax({
+                    url:"@Url.Action("Memb","Member")",
+                    method: "post",
+                    data: $("form[name=myForm]").serialize()
+                });//end ajax
+            });
+        });
+    CKEDITOR.replace('myText'
+        , { filebrowserImageUploadUrl: '/Home/UploadPicture' }
+    );
+
+</script>
