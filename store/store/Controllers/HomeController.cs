@@ -10,6 +10,7 @@ namespace store.Controllers
     {
         public ActionResult Index()
         {
+            加了這裡
             return View();
         }
 
